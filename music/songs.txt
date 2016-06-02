@@ -1,0 +1,91 @@
+song = {
+	name = "maintheme"
+}
+
+song = {
+	name = "4Kirk"
+}
+
+song = {
+	name = "5Sign"
+}
+
+song = {
+	name = "6MainTitle"
+}
+
+song = {
+	name = "7Prologue"
+}
+
+song = {
+	name = "8Mutara"
+}
+
+song = {
+	name = "9Epilogue"
+}
+
+song = {
+	name = "10anewbeginning"
+}
+
+song = {
+	name = "11passageterminated"
+}
+
+song = {
+	name = "12wylbthem"
+}
+
+song = {
+	name = "13Main"
+}
+
+song = {
+	name = "14waking"
+}
+
+song = {
+	name = "15dangerous"
+}
+
+song = {
+	name = "16cloak"
+}
+
+song = {
+	name = "17argue"
+}
+
+song = {
+	name = "18chase"
+}
+
+song = {
+	name = "19guns"
+}
+
+song = {
+	name = "20Theme1"
+}
+
+song = {
+	name = "21Theme2"
+}
+
+song = {
+	name = "22wolf"
+}
+
+song = {
+	name = "23borg"
+}
+
+song = {
+	name = "24borge"
+}
+
+song = {
+	name = "25Finale"
+}

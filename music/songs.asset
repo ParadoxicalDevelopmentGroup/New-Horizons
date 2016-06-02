@@ -1,0 +1,144 @@
+music = {
+	name = "maintheme"
+	file = "creationandbeyond.ogg"
+	volume = 0.68
+}
+
+music = {
+	name = "3Generations"
+	file = "3Generations.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "4Kirk"
+	file = "4Kirk.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "5Sign"
+	file = "5Sign"
+	volume = 0.72
+}
+
+music = {
+	name = "6MainTitle"
+	file = "6MainTitle.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "7Prologue"
+	file = "7Prologue.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "8Mutara"
+	file = "8Mutara.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "9Epilogue"
+	file = "9Epilogue.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "10anewbeginning"
+	file = "10anewbeginning.ogg"
+	volume = 0.72
+}
+
+
+music = {
+	name = "11passageterminated"
+	file = "11passageterminated.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "12wylbthem"
+	file = "12wylbthem.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "13Main"
+	file = "13Main.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "14waking"
+	file = "14waking.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "15dangerous"
+	file = "15dangerous.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "16cloak"
+	file = "16cloak.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "17argue"
+	file = "17argue.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "18chase"
+	file = "18chase.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "19guns"
+	file = "19guns.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "20Theme1"
+	file = "20Theme1.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "21Theme2"
+	file = "21Theme2.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "22wolf"
+	file = "22wolf.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "23borg"
+	file = "23borg.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "24borge"
+	file = "24borge.ogg"
+	volume = 0.72
+}
+
+music = {
+	name = "25Finale"
+	file = "25Finale.ogg"
+	volume = 0.72
+}
