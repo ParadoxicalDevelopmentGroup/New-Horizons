@@ -1,0 +1,100 @@
+portraits = {
+	# ferengi
+	ferengi_female_01 = {	
+		entity = "portrait_ferengi_female_01_entity"	clothes_selector = "mammalian_ferengi_female_clothes_01" 	hair_selector = "ferengi_female_lobes_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/ferengi/ferengi_female_body_01.dds"
+		}
+	}
+	ferengi_male_01 = {	
+		entity = "portrait_ferengi_male_01_entity"	clothes_selector = "mammalian_ferengi_male_clothes_01" 	hair_selector = "ferengi_male_lobes_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/ferengi/ferengi_male_body_01.dds"
+		}
+	}	
+}
+
+portrait_groups = {
+	ferengi = {
+		default = ferengi_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					ferengi_male_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					ferengi_female_01
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					ferengi_female_01
+					ferengi_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					ferengi_female_01
+					ferengi_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					ferengi_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					ferengi_male_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					ferengi_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					ferengi_male_01
+				}
+			}
+		}
+	}	
+}
