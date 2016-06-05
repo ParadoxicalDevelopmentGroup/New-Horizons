@@ -9,7 +9,10 @@ namespace = sthortest
 
 planet_event = {
 	id = sthortest.1
-	hide_window = yes
+	hide_window = no
+	title = "Star Trek Horizons: Ship Spotlight"
+	desc = "Today we wanted to spotlight the Saladin-class destroyer. A federation ship that was relegated mainly to background dressing, the Saladin-class is smaller than the constitution class, but has excellent manuverability and a small profile." 
+	picture = sthor_GFX_evt_test1
 	
 	is_triggered_only = yes
 	
@@ -26,4 +29,10 @@ planet_event = {
 			}
 		}
 	}
+
+	option = {
+		name = "To Boldly Go..."
+	}
 }
+
+#	location = event_target:space_probe
