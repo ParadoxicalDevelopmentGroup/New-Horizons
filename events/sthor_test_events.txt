@@ -1,0 +1,29 @@
+#########################################
+#
+# ST Horizons Test Events
+#
+#########################################
+
+namespace = sthortest
+
+
+planet_event = {
+	id = sthortest.1
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		owner = {
+			create_fleet = { name = "Special Ships" }
+			last_created_fleet = {
+				set_owner = prev
+				create_ship = {
+					name = "Corvette"
+					random_existing_design = "corvette"
+				}
+				set_location = root
+			}
+		}
+	}
+}
