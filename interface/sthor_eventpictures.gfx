@@ -1,0 +1,10 @@
+spriteTypes = {	
+
+
+	spriteType = {
+		name = "sth_GFX_evt_test1"
+		texturefile = "gfx/event_pictures/test_event_pic.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+}
