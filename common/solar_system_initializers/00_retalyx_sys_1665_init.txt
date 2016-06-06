@@ -1,0 +1,10 @@
+sys_1665_init = {
+    name = "Tholia"
+    class = random
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+}

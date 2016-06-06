@@ -1,0 +1,10 @@
+sys_1512_init = {
+    name = "Tama"
+    class = random
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+}

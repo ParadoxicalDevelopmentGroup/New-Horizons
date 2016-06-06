@@ -1,0 +1,10 @@
+sys_744_init = {
+    name = "Ogus II"
+    class = random
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+}

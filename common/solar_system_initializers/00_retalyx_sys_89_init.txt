@@ -1,0 +1,10 @@
+sys_89_init = {
+    name = "Morali Prime"
+    class = random
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+}

@@ -1,0 +1,10 @@
+sys_131_init = {
+    name = "Voth Prime"
+    class = random
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+}
