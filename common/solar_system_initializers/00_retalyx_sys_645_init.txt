@@ -1,0 +1,10 @@
+sys_645_init = {
+    name = "Collective Splinter #3"
+    class = "Collective Splinter #3"
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+}

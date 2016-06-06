@@ -1,0 +1,10 @@
+sys_709_init = {
+    name = "Breen"
+    class = random
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+}

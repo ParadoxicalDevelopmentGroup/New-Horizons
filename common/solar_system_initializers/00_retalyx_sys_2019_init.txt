@@ -1,0 +1,10 @@
+sys_2019_init = {
+    name = "Collective Splinter #3"
+    class = random
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+}

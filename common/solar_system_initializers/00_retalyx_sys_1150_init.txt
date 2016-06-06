@@ -1,0 +1,10 @@
+sys_1150_init = {
+    name = "Founder's System"
+    class = random
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+}

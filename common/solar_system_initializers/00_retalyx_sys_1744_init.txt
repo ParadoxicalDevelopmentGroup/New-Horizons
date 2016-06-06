@@ -1,0 +1,10 @@
+sys_1744_init = {
+    name = "Qo'nos"
+    class = random
+
+    planet = {
+        class = star
+        orbit_distance = 0
+        size = 20
+    }
+}
