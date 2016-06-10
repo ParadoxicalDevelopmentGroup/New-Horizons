@@ -1,0 +1,2167 @@
+
+@distance = 50
+@base_moon_distance = 10
+
+
+### Sol - Human start
+sol_system_initializer = {
+	name = "Sol"
+	
+	class = "sc_g"
+	asteroids_distance = 88
+	flags = { sol_system }
+	
+	usage = custom_empire
+	max_instances = 1
+	planet = {
+		name = "Sol"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 40
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Mercury"
+		class = "pc_molten"
+		orbit_distance = 20
+		orbit_angle = 15
+		size = 6.08
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Venus"
+		class = "pc_toxic"
+		orbit_distance = 15.2
+		orbit_angle = 125
+		size = 15
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Earth"
+		class = "pc_continental"
+		orbit_distance = 12.5
+		orbit_angle = 220
+		size = 16
+		starting_planet = yes
+		has_ring = no
+		entity = "continental_planet_earth_entity"
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+		
+		moon = {
+			name = "Luna"
+			class = "pc_barren_cold"
+			size = 7
+			orbit_distance = 7
+			orbit_angle = 0
+			has_ring = no
+			entity = "cold_barren_planet_luna_entity"
+		}
+	}
+	
+	planet = {
+		name = "Mars"
+		class = "pc_barren"
+		orbit_distance = 19
+		orbit_angle = 220
+		size = 8.5
+		has_ring = no
+		entity = "barren_planet_mars_entity"
+		
+		moon = {
+			name = "Phobos"
+			class = "pc_barren_cold"
+			size = 1
+			orbit_distance = 2.5
+			orbit_angle = 30
+			has_ring = no
+		}
+		moon = {
+			name = "Deimos"
+			class = "pc_barren_cold"
+			size = 1
+			orbit_distance = 1
+			orbit_angle = 90
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Ceres"
+		class = "pc_asteroid"
+		orbit_distance = 21
+		orbit_angle = -210
+		size = 2
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Pallas"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -95
+		size = 2
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Juno"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 285
+		size = 2
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Vesta"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -80
+		size = 2
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Jupiter"
+		class = "pc_gas_giant"
+		orbit_distance = 38
+		orbit_angle = 20
+		size = 35
+		has_ring = no
+		entity = "gas_giant_jupiter_entity"
+		
+		moon = {
+			name = "Io"
+			class = "pc_molten"
+			size = 4.64
+			orbit_distance = 12
+			orbit_angle = 0
+			has_ring = no
+		}
+		moon = {
+			name = "Europa"
+			class = "pc_frozen"
+			size = 4
+			orbit_distance = 1
+			orbit_angle = 90
+			has_ring = no
+		}
+		moon = {
+			name = "Ganymede"
+			class = "pc_frozen"
+			size = 6.56
+			orbit_distance = 2
+			orbit_angle = 90
+			has_ring = no
+		}
+		moon = {
+			name = "Callisto"
+			class = "pc_frozen"
+			size = 6.08
+			orbit_distance = 4
+			orbit_angle = 90
+			has_ring = no
+		}
+
+
+
+	}
+	
+	planet = {
+		name = "Saturn"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = 170
+		size = 31.83
+		has_ring = yes
+		entity = "gas_giant_05_entity"
+		
+		moon = {
+			name = "Tethys"
+			class = "pc_barren_cold"
+			size = 1.28
+			orbit_distance = 12
+			orbit_angle = 30
+			has_ring = no
+		}
+		moon = {
+			name = "Dione"
+			class = "pc_barren_cold"
+			size = 1.44
+			orbit_distance = 3
+			orbit_angle = 72
+			has_ring = no
+		}
+		moon = {
+			name = "Rhea"
+			class = "pc_frozen"
+			size = 1.92
+			orbit_distance = 3
+			orbit_angle = 72
+			has_ring = no
+		}
+		moon = {
+			name = "Titan"
+			class = "pc_frozen"
+			size = 6.4
+			orbit_distance = 4
+			orbit_angle = 72
+			has_ring = no
+		}
+		moon = {
+			name = "Iapetus"
+			class = "pc_frozen"
+			size = 1.92
+			orbit_distance = 8
+			orbit_angle = 72
+			has_ring = no
+		}
+
+
+	}
+	
+	planet = {
+		name = "Uranus"
+		class = "pc_gas_giant"
+		orbit_distance = 60
+		orbit_angle = 125
+		size = 21.11
+		has_ring = no
+		entity = "gas_giant_03_entity"
+		
+		moon = {
+			name = "Ariel"
+			class = "pc_frozen"
+			size = 1.44
+			orbit_distance = 12
+			orbit_angle = 45
+			has_ring = no
+		}
+		moon = {
+			name = "Umbriel"
+			class = "pc_barren_cold"
+			size = 1.44
+			orbit_distance = 3
+			orbit_angle = 90
+			has_ring = no
+		}
+		moon = {
+			name = "Titania"
+			class = "pc_frozen"
+			size = 1.92
+			orbit_distance = 2
+			orbit_angle = 90
+			has_ring = no
+		}
+		moon = {
+			name = "Oberon"
+			class = "pc_barren_cold"
+			size = 1.92
+			orbit_distance = 2
+			orbit_angle = 90
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Neptune"
+		class = "pc_gas_giant"
+		orbit_distance = 70
+		orbit_angle = -195
+		size = 20.84
+		has_ring = no
+		entity = "gas_giant_02_entity"
+		
+
+		moon = {
+			name = "Triton"
+			class = "pc_frozen"
+			size = 3.36
+			orbit_distance = 8
+			orbit_angle = 115
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Pluto"
+		class = "pc_barren"
+		orbit_distance = 65
+		orbit_angle = 270
+		size = 3.04
+		has_ring = no
+		
+		moon = {
+			name = "Charon"
+			class = "pc_frozen"
+			size = 1.6
+			orbit_distance = 2
+			orbit_angle = 15
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Eris"
+		class = "pc_frozen"
+		orbit_distance = 15
+		orbit_angle = 130
+		size = 2.88
+		has_ring = no
+		
+	}
+	
+
+}
+
+# Flavor, not a homeworld			
+alpha_centauri = {			
+	name = "Alpha Centauri"		
+	class = sc_g		
+			
+	planet = {		
+		count = 1	
+		class = star	
+		orbit_distance = 0	
+		orbit_angle = 1	
+		size = 43	
+		has_ring = no	
+	}		
+			
+	change_orbit = { min = 20 max = 30}		
+			
+	planet = {		
+		Count = { min = 1 max = 3}	
+		orbit_distance = {min = 15 max = 20}	
+		class = random	
+		orbit_angle = { min = 90 max = 270 }	
+		size = { min = 8 max = 16 }	
+			
+		moon = {	
+			count = { min = 0 max = 1 }
+			class = random
+			orbit_distance = { min = 6 max = 8 }
+			size = { min = 6 max = 10 }
+		}	
+	}		
+			
+	change_orbit = { min = 20 max = 30}		
+			
+	planet = {		
+		Count = { min = 1 max = 3}	
+		orbit_distance = {min = 20 max = 30}	
+		class = random_colonizable	
+		orbit_angle = { min = 90 max = 270 }	
+		size = { min = 10 max = 24 }	
+			
+		moon = {	
+			count = { min = 0 max = 2 }
+			class = random
+			orbit_distance = { min = 6 max = 8 }
+			size = { min = 8 max = 10 }
+		}	
+	}		
+			
+	change_orbit = { min = 20 max = 30}		
+			
+	planet = {		
+		Count = { min = 0 max = 4}	
+		orbit_distance = {min = 30 max = 40}	
+		class = random	
+		orbit_angle = { min = 90 max = 270 }	
+		size = { min = 12 max = 30 }	
+			
+		moon = {	
+			count = { min = 0 max = 4 }
+			class = random
+			orbit_distance = { min = 6 max = 10 }
+			size = { min = 8 max = 10 }
+		}	
+	}		
+			
+			
+			
+}			
+			
+			
+# Sol Neighborhood		
+sol_neighbor_t2= {			
+	name = "Barnard's Star"		
+	class = sc_m		
+			
+	planet = {		
+		count = 1	
+		class = star	
+		orbit_distance = 0	
+		orbit_angle = 1	
+		size = 18	
+		has_ring = no	
+	}		
+			
+	change_orbit = { min = 20 max = 30}		
+			
+	planet = {		
+		Count = { min = 0 max = 7}	
+		orbit_distance = {min = 20 max = 30}	
+		class = random	
+		orbit_angle = { min = 90 max = 270 }	
+		size = { min = 8 max = 16 }	
+			
+		moon = {	
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_distance = { min = 6 max = 8 }
+			size = { min = 1 max = 6 }
+		}	
+	}		
+					
+			
+}			
+			
+			
+# Sol Neighborhood		
+sol_neighbor_t3= {			
+	name = "Wolf 359"		
+	class = sc_m		
+			
+	planet = {		
+		count = 1	
+		class = star	
+		orbit_distance = 0	
+		orbit_angle = 1	
+		size = 16	
+		has_ring = no	
+	}		
+			
+	change_orbit = { min = 20 max = 30}		
+			
+	planet = {		
+		Count = { min = 0 max = 7}	
+		orbit_distance = {min = 20 max = 30}	
+		class = random	
+		orbit_angle = { min = 90 max = 270 }	
+		size = { min = 8 max = 16 }	
+			
+		moon = {	
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_distance = { min = 6 max = 8 }
+			size = { min = 1 max = 6 }
+		}	
+	}		
+	
+			
+}			
+			
+			
+# Sol Neighborhood
+sol_neighbor_t4= {			
+	name = "Sirius"		
+	class = sc_a		
+			
+	planet = {		
+		count = 1	
+		class = star	
+		orbit_distance = 0	
+		orbit_angle = 1	
+		size = 48	
+		has_ring = no	
+	}		
+			
+	change_orbit = { min = 20 max = 30}		
+			
+	planet = {		
+		Count = { min = 1 max = 3}	
+		orbit_distance = {min = 15 max = 20}	
+		class = random	
+		orbit_angle = { min = 90 max = 270 }	
+		size = { min = 8 max = 16 }	
+			
+		moon = {	
+			count = { min = 0 max = 1 }
+			class = random
+			orbit_distance = { min = 6 max = 8 }
+			size = { min = 6 max = 10 }
+		}	
+	}		
+			
+	change_orbit = { min = 20 max = 30}		
+			
+	planet = {		
+		Count = { min = 1 max = 3}	
+		orbit_distance = {min = 20 max = 30}	
+		class = random_colonizable	
+		orbit_angle = { min = 90 max = 270 }	
+		size = { min = 10 max = 24 }	
+			
+		moon = {	
+			count = { min = 0 max = 2 }
+			class = random
+			orbit_distance = { min = 6 max = 8 }
+			size = { min = 8 max = 10 }
+		}	
+	}		
+			
+	change_orbit = { min = 20 max = 30}		
+			
+	planet = {		
+		Count = { min = 0 max = 4}	
+		orbit_distance = {min = 30 max = 40}	
+		class = random	
+		orbit_angle = { min = 90 max = 270 }	
+		size = { min = 12 max = 30 }	
+			
+		moon = {	
+			count = { min = 0 max = 4 }
+			class = random
+			orbit_distance = { min = 6 max = 10 }
+			size = { min = 8 max = 10 }
+		}	
+	}		
+			
+			
+			
+}	
+
+			
+# Romulus
+romulan_homeworld = {			
+	name = "Romulus"						#Name of the system.
+	class = "sc_g"								#system's star class. [random] picks a random class from all available system classes. ["name_of_class"] picks a specific class. ["name_of_random_list"] picks a random class from the specified random_list ( random_list are found in the same files as the star classes )
+	
+
+	planet = {
+		name = "Romulus"
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	#create a planet
+	planet = {
+		name = "Aegein"
+		class = "pc_barren"
+		orbit_distance = 50						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -160						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 25								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Romulus"
+		class = "pc_continental"
+		orbit_distance = 30
+		orbit_angle = 100
+		size = 16
+		starting_planet = yes
+		has_ring = no
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+		moon = {
+			name = "Rihan a"
+			class = "pc_barren_cold"
+			size = 7
+			orbit_distance = 10
+			orbit_angle = -100
+			has_ring = no
+		}
+		moon = {
+			name = "Rihan b"
+			class = "pc_barren_cold"
+			size = 7
+			orbit_distance = 2.5
+			orbit_angle = 10
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Remus"
+		class = "pc_desert"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 10						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 12								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+	}
+
+	
+	planet = {
+		name = "Iliash"
+		class = "pc_gas_giant"
+		orbit_distance = 30						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 120						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 25								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = yes
+		
+		moon = {
+			name = "Iliash a"
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 10
+			orbit_angle = 100
+			has_ring = no
+		}
+		moon = {
+			name = "Iliash b"
+			class = "pc_barren_cold"
+			size = 4
+			orbit_distance = 2.5
+			orbit_angle = -175
+			has_ring = no
+		}
+	}
+
+			
+}	
+
+
+# Klingons		
+klingon_homeworld = {			
+	name = "Qo'noS"						#Name of the system.
+	class = "sc_g"								#system's star class. [random] picks a random class from all available system classes. ["name_of_class"] picks a specific class. ["name_of_random_list"] picks a random class from the specified random_list ( random_list are found in the same files as the star classes )
+	
+
+	planet = {
+		name = "Qo'noS"
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	#create a planet
+	planet = {
+		name = "SoQmoH"
+		class = "pc_barren"
+		orbit_distance = 50						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -25						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 10								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Qo'noS"
+		class = "pc_tropical"
+		orbit_distance = 30
+		orbit_angle = 115
+		size = 17
+		starting_planet = yes
+		has_ring = no
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+		moon = {
+			name = "Praxis"
+			class = "pc_barren"
+			size = 8
+			orbit_distance = 10
+			orbit_angle = 10
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "ChIm"
+		class = "pc_barren"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 45						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 14								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "BIr"
+		class = "pc_barren_cold"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 130						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 12								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Veqlargh"
+		class = "pc_gas_giant"
+		orbit_distance = 30						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 70						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 25								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = yes
+		
+		moon = {
+			name = "Hur'q"
+			class = "pc_barren_cold"
+			size = 8
+			orbit_distance = 10
+			orbit_angle = 100
+			has_ring = no
+		}
+		moon = {
+			name = "Molor"
+			class = "pc_barren_cold"
+			size = 7
+			orbit_distance = 2.5
+			orbit_angle = -175
+			has_ring = no
+		}
+	}
+			
+			
+}	
+
+
+# Andorians		
+andorian_homeworld = {			
+	name = "Andoria"						#Name of the system.
+	class = "sc_f"								#system's star class. [random] picks a random class from all available system classes. ["name_of_class"] picks a specific class. ["name_of_random_list"] picks a random class from the specified random_list ( random_list are found in the same files as the star classes )
+	
+
+	planet = {
+		name = "Andoria"
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	#create a planet
+	planet = {
+		name = "Kastra"
+		class = "pc_barren"
+		orbit_distance = 50						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -170						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 13								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Kuy'Thela"
+		class = "pc_barren"
+		orbit_distance = 30						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 30						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 10								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Andron"
+		class = "pc_toxic"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 110						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 12								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Brok'va"
+		class = "pc_barren_cold"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 100						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 12								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Kul'va"
+		class = "pc_gas_giant"
+		orbit_distance = 30						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -170						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 35								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+		
+		moon = {
+			name = "Kul'va a"
+			class = "pc_barren"
+			size = 8
+			orbit_distance = 20
+			orbit_angle = 30
+			has_ring = no
+		}		
+	}
+	
+	planet = {
+		name = "Kazaan"
+		class = "pc_barren_cold"
+		orbit_distance = 30						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 120						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 13								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Onlith"
+		class = "pc_gas_giant"
+		orbit_distance = 30						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 90						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 30								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = yes
+
+		moon = {
+			name = "Andoria"
+			class = "pc_arctic"
+			orbit_distance = 25
+			orbit_angle = 160
+			size = 14
+			starting_planet = yes
+			has_ring = no
+			tile_blockers = none
+			modifiers = none
+			
+			init_effect = {
+				prevent_anomaly = yes
+			}
+			
+			init_effect = {
+				random_tile = {
+					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+					set_building = "building_capital_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}	
+					add_resource = {
+						resource = minerals
+						amount = 1
+					}					
+					random_neighboring_tile = {
+						limit = { has_blocker = no has_building = no }
+						set_building = "building_hydroponics_farm_1"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}						
+					}
+					random_neighboring_tile = {
+						limit = { has_blocker = no has_building = no }
+						set_building = "building_power_plant_1"
+						add_resource = {
+							resource = energy
+							amount = 1
+							replace = yes
+						}						
+					}
+					random_neighboring_tile = {
+						limit = { has_blocker = no has_building = no }
+						set_building = "building_power_plant_1"
+						add_resource = {
+							resource = energy
+							amount = 1
+							replace = yes
+						}						
+					}
+					random_neighboring_tile = {
+						limit = { has_blocker = no has_building = no }
+						set_building = "building_mining_network_1"
+						add_resource = {
+							resource = minerals
+							amount = 1
+							replace = yes
+						}						
+					}				
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_blocker = "tb_failing_infrastructure"
+					add_resource = {
+						resource = engineering_research
+						amount = 1
+						replace = yes
+					}				
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_blocker = "tb_failing_infrastructure"
+					add_resource = {
+						resource = society_research
+						amount = 1
+						replace = yes
+					}				
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_blocker = "tb_failing_infrastructure"
+					add_resource = {
+						resource = physics_research
+						amount = 1
+						replace = yes
+					}				
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_blocker = "tb_decrepit_dwellings"
+					add_resource = {
+						resource = energy
+						amount = 2
+						replace = yes
+					}					
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_blocker = "tb_decrepit_dwellings"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}					
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_blocker = "tb_decrepit_dwellings"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}				
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}				
+				}			
+			}
+		}
+		
+		moon = {
+			name = "Onlith b"
+			class = "pc_barren_cold"
+			size = 7
+			orbit_distance = 2.5
+			orbit_angle = 30
+			has_ring = no
+		}
+	}
+
+}	
+
+
+# Vulcans		
+vulcan_homeworld = {			
+	name = "40 Eridani A"		
+		
+	class = "sc_k"								#system's star class. [random] picks a random class from all available system classes. ["name_of_class"] picks a specific class. ["name_of_random_list"] picks a random class from the specified random_list ( random_list are found in the same files as the star classes )
+	asteroids_distance = 130			#asteroid field distance from center
+	
+	planet = {
+		name = "A"
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	#create a planet
+	planet = {
+		name = "Ket-Cheleb"
+		class = "pc_barren"
+		orbit_distance = 50						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -160						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 10								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Vulcan"
+		class = "pc_desert"
+		orbit_distance = 30
+		orbit_angle = -150
+		size = 16
+		starting_planet = yes
+		has_ring = no
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+	}
+	
+	planet = {
+		name = "T'Khut"
+		class = "pc_barren"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 0						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 15								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+		
+		moon = {
+			name = "Delta Vega"
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 10
+			orbit_angle = 10
+			has_ring = no
+		}
+	}
+
+	planet = {
+		name = "B"
+		class = star
+		orbit_distance = 90
+		orbit_angle = 90
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "C"
+		class = star
+		orbit_distance = 20
+		orbit_angle = 20
+		size = 10
+		has_ring = no
+	}
+		
+			
+}
+
+# Bajor
+bajorian_homeworld= {			
+	name = "Bajor"						#Name of the system.
+	class = "sc_g"								#system's star class. [random] picks a random class from all available system classes. ["name_of_class"] picks a specific class. ["name_of_random_list"] picks a random class from the specified random_list ( random_list are found in the same files as the star classes )
+	asteroids_distance = 235			#asteroid field distance from center
+	
+
+	planet = {
+		name = "Bajor"
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	#create a planet
+	planet = {
+		name = "B'hava'el I"
+		class = "pc_molten"
+		orbit_distance = 50						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -50						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 9								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "B'hava'el II"
+		class = "pc_molten"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -160						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 11								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "B'hava'el III"
+		class = "pc_molten"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 180						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 14								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+
+	planet = {
+		name = "B'hava'el IV"
+		class = "pc_molten"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 120						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 15								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}	
+	
+	planet = {
+		name = "B'hava'el V"
+		class = "pc_toxic"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 110						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 13								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "B'hava'el VI"
+		class = "pc_barren"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -50						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 13								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "B'hava'el VII"
+		class = "pc_barren"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -150						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 14								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Andros"
+		class = "pc_barren"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -160						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 15								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+		
+		moon = {
+			name = "Andros a"
+			class = "pc_barren_cold"
+			size = 3
+			orbit_distance = 8
+			orbit_angle = 10
+			has_ring = no
+		}
+		
+		moon = {
+			name = "Andros b"
+			class = "pc_barren_cold"
+			size = 2
+			orbit_distance = 3
+			orbit_angle = 10
+			has_ring = no
+		}
+	}
+
+	planet = {
+		name = "B'hava'el IX"
+		class = "pc_barren"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 170						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 15								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "B'hava'el X"
+		class = "pc_barren"
+		orbit_distance = 50						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 140						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 12								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	
+	planet = {
+		name = "Bajor"
+		class = "pc_continental"
+		orbit_distance = 30
+		orbit_angle = 160
+		size = 16
+		starting_planet = yes
+		has_ring = no
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+		
+		moon = {
+			name = "Derna"
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 8
+			orbit_angle = 10
+			has_ring = no
+		}
+		
+		moon = {
+			name = "B'hava'el XI b"
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 3
+			orbit_angle = 10
+			has_ring = no
+		}
+		
+		moon = {
+			name = "B'hava'el XI c"
+			class = "pc_barren_cold"
+			size = 8
+			orbit_distance = 3
+			orbit_angle = 10
+			has_ring = no
+		}
+		
+		moon = {
+			name = "B'hava'el XI d"
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 3
+			orbit_angle = 10
+			has_ring = no
+		}
+		
+		moon = {
+			name = "Jeraddo"
+			class = "pc_toxic"
+			size = 5
+			orbit_distance = 3
+			orbit_angle = 10
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "B'hava'el XII"
+		class = "pc_gas_giant"
+		orbit_distance = 30						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 60						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 35								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "B'hava'el XIII"
+		class = "pc_gas_giant"
+		orbit_distance = 30						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 180						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 25								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "B'hava'el XIV"
+		class = "pc_gas_giant"
+		orbit_distance = 30						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -140						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 25								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+		
+			
+}	
+
+
+# Cardassians		
+cardassian_homeworld= {			
+	name = "Cardassia"						#Name of the system.
+	class = "sc_k"								#system's star class. [random] picks a random class from all available system classes. ["name_of_class"] picks a specific class. ["name_of_random_list"] picks a random class from the specified random_list ( random_list are found in the same files as the star classes )
+	asteroids_distance = 70			#asteroid field distance from center
+	asteroids_distance = 190			#asteroid field distance from center
+	
+
+	planet = {
+		name = "Cardassia"
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	#create a planet
+	planet = {
+		name = "Reklar"
+		class = "pc_molten"
+		orbit_distance = 50						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 110						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 9								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Cardassia Prime"
+		class = "pc_continental"
+		orbit_distance = 40
+		orbit_angle = 160
+		size = 16
+		starting_planet = yes
+		has_ring = no
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+		
+		moon = {
+			name = "Letau"
+			class = "pc_barren"
+			size = 8
+			orbit_distance = 8
+			orbit_angle = 10
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Minor Cardassia"
+		class = "pc_tropical"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -120						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 13 								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}	
+	
+	planet = {
+		name = "Hutet"
+		class = "pc_desert"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 50						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 14								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Lakaria"
+		class = "pc_desert"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 40						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 13								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Shri-tal"
+		class = "pc_toxic"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 150						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 13								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Hebitia"
+		class = "pc_gas_giant"
+		orbit_distance = 50						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -70						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 33								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = yes
+	}
+
+			
+}	
+
+
+
+
+				
+			
+			
