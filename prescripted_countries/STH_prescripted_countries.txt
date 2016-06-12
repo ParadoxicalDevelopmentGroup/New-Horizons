@@ -1,0 +1,170 @@
+Romulan = {
+	name = "Romulan Empire"
+       spawn_enabled = always # yes / no / always
+       name_list = "Human"
+       ship_prefix = "RRW"	
+       species_name = "Romulan"
+       species_plural = "Romulans"	
+       species_adjective = "Romulan"
+       species_class = "MAM"
+       trait = "trait_quick_learners"
+       trait = "trait_nomadic"	
+       portrait = "human"
+       adjective = "Romulan"
+       government = "indirect_democracy"
+       ethic = "ethic_xenophile"
+       ethic = "ethic_fanatic_individualist"
+       flags = { romulan_empire }
+       weapon = "tech_missiles_1"
+       ftl = warp
+       planet_name = "Romulus"
+       planet_class = "pc_continental"
+       initializer = "romulan_homeworld"
+       system_name = "Romulus"
+       graphical_culture = "mammalian_01"
+       city_graphical_culture = "mammalian_01"
+       empire_flag = {
+               icon= {
+                       category = "human"
+                       file = "flag_human_9.dds"
+               }
+               background= {
+                       category = "backgrounds"
+                       file = "00_solid.dds"
+               }
+               colors={
+                       "blue"
+                       "black"
+                       "null"
+                       "null"
+               }
+       }
+       #leader = {
+       #	name = "Dolores Muwanga"
+       #	class = ruler
+       #	portrait = "human_female_05"
+       #	experience = 1200.0
+       #}	
+       ruler = {
+               name = "V'Las"
+               gender = female
+               portrait = "human_female_05"
+               texture = 0
+               hair = 1
+               clothes = 0
+       }
+}
+
+Klingon = {
+	name = "Klingon Empire"
+       spawn_enabled = always # yes / no / always
+       name_list = "Human"
+       ship_prefix = "IKS"	
+       species_name = "Klingon"
+       species_plural = "Klingons"	
+       species_adjective = "Klingon"
+       species_class = "MAM"
+       trait = "trait_quick_learners"
+       trait = "trait_nomadic"	
+       portrait = "human"
+       adjective = "Klingon"
+       government = "indirect_democracy"
+       ethic = "ethic_xenophile"
+       ethic = "ethic_fanatic_individualist"
+       flags = { klingon_empire }
+       weapon = "tech_missiles_1"
+       ftl = warp
+       planet_name = "Qo'Nos"
+       planet_class = "pc_continental"
+       initializer = "klingon_homeworld"
+       system_name = "Qo'Nos"
+       graphical_culture = "mammalian_01"
+       city_graphical_culture = "mammalian_01"
+       empire_flag = {
+               icon= {
+                       category = "human"
+                       file = "flag_human_9.dds"
+               }
+               background= {
+                       category = "backgrounds"
+                       file = "00_solid.dds"
+               }
+               colors={
+                       "blue"
+                       "black"
+                       "null"
+                       "null"
+               }
+       }
+       #leader = {
+       #	name = "Dolores Muwanga"
+       #	class = ruler
+       #	portrait = "human_female_05"
+       #	experience = 1200.0
+       #}	
+       ruler = {
+               name = "Duras"
+               gender = female
+               portrait = "human_female_05"
+               texture = 0
+               hair = 1
+               clothes = 0
+       }
+}
+
+Human = {
+	name = "United Earth"
+       spawn_enabled = always # yes / no / always
+       name_list = "Human"
+       ship_prefix = "USS"	
+       species_name = "Human"
+       species_plural = "Humans"	
+       species_adjective = "Human"
+       species_class = "MAM"
+       trait = "trait_quick_learners"
+       trait = "trait_nomadic"	
+       portrait = "human"
+       adjective = "Human"
+       government = "indirect_democracy"
+       ethic = "ethic_xenophile"
+       ethic = "ethic_fanatic_individualist"
+       flags = { human_empire }
+       weapon = "tech_missiles_1"
+       ftl = warp
+       planet_name = "Earth"
+       planet_class = "pc_continental"
+       initializer = "earth_homeworld"
+       system_name = "Sol"
+       graphical_culture = "mammalian_01"
+       city_graphical_culture = "mammalian_01"
+       empire_flag = {
+               icon= {
+                       category = "human"
+                       file = "flag_human_9.dds"
+               }
+               background= {
+                       category = "backgrounds"
+                       file = "00_solid.dds"
+               }
+               colors={
+                       "blue"
+                       "black"
+                       "null"
+                       "null"
+               }
+       }
+       #leader = {
+       #	name = "Dolores Muwanga"
+       #	class = ruler
+       #	portrait = "human_female_05"
+       #	experience = 1200.0
+       #}	
+       ruler = {
+               name = "Nathan Samuels"
+               gender = female
+               portrait = "human_male_01"
+               texture = 0
+               hair = 1
+               clothes = 0
+       }
+}

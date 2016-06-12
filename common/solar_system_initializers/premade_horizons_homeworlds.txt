@@ -4,12 +4,12 @@
 
 
 ### Sol - Human start
-sol_system_initializer = {
+earth_homeworld = {
 	name = "Sol"
 	
 	class = "sc_g"
 	asteroids_distance = 88
-	flags = { sol_system }
+	flags = { human_empire }
 	
 	usage = custom_empire
 	max_instances = 1
@@ -652,6 +652,10 @@ romulan_homeworld = {
 	name = "Romulus"						#Name of the system.
 	class = "sc_g"								#system's star class. [random] picks a random class from all available system classes. ["name_of_class"] picks a specific class. ["name_of_random_list"] picks a random class from the specified random_list ( random_list are found in the same files as the star classes )
 	
+	usage = custom_empire
+	max_instances = 2
+
+	flags = { romulan_homeworld }
 
 	planet = {
 		name = "Romulus"
@@ -677,7 +681,7 @@ romulan_homeworld = {
 		class = "pc_continental"
 		orbit_distance = 30
 		orbit_angle = 100
-		size = 16
+		size = 21
 		starting_planet = yes
 		has_ring = no
 		tile_blockers = none
@@ -688,6 +692,73 @@ romulan_homeworld = {
 		}
 		
 		init_effect = {
+			set_capital = yes
+
+			every_country = {
+				limit = {
+					has_country_flag = romulan_empire
+				}
+				save_event_target_as = romulan_empire
+			}
+
+			set_owner = event_target:romulan_empire
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+					
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"
@@ -711,9 +782,9 @@ romulan_homeworld = {
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
+					set_building = "building_hydroponics_farm_1"
 					add_resource = {
-						resource = energy
+						resource = food
 						amount = 1
 						replace = yes
 					}						
@@ -729,7 +800,34 @@ romulan_homeworld = {
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
-					set_building = "building_mining_network_1"
+					set_building = "building_power_plant_2"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_2"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_2"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_2"
 					add_resource = {
 						resource = minerals
 						amount = 1
@@ -739,7 +837,7 @@ romulan_homeworld = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
+				set_building = "building_basic_science_lab_1"
 				add_resource = {
 					resource = engineering_research
 					amount = 1
@@ -748,7 +846,7 @@ romulan_homeworld = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
+				set_building = "building_basic_science_lab_1"
 				add_resource = {
 					resource = society_research
 					amount = 1
@@ -757,7 +855,7 @@ romulan_homeworld = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
+				set_building = "building_basic_science_lab_1"
 				add_resource = {
 					resource = physics_research
 					amount = 1
@@ -784,21 +882,20 @@ romulan_homeworld = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
 				add_resource = {
-					resource = energy
-					amount = 1
+					resource = food
+					amount = 2
 					replace = yes
 				}				
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				add_resource = {
-					resource = food
+					resource = energy
 					amount = 1
 					replace = yes
 				}				
-			}			
+			}
 		}
 		moon = {
 			name = "Rihan a"
@@ -823,14 +920,43 @@ romulan_homeworld = {
 		class = "pc_desert"
 		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
 		orbit_angle = 10						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
-		size = 12								#planet size. remember that all numeric values support { min = x max = y } syntax
+		size = 16								#planet size. remember that all numeric values support { min = x max = y } syntax
 		has_ring = no
+		tile_blockers = none
 		
 		init_effect = {
-			prevent_anomaly = yes
-		}
-		
-		init_effect = {
+
+			every_country = {
+				limit = {
+					has_country_flag = romulan_empire
+				}
+				save_event_target_as = romulan_empire
+			}
+
+			set_owner = event_target:romulan_empire
+			
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"
@@ -850,16 +976,12 @@ romulan_homeworld = {
 						resource = food
 						amount = 1
 						replace = yes
-					}						
+					}	
+									
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}						
+					set_building = "building_power_plant_1"						
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
@@ -882,7 +1004,6 @@ romulan_homeworld = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
 				add_resource = {
 					resource = engineering_research
 					amount = 1
@@ -891,7 +1012,6 @@ romulan_homeworld = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
 				add_resource = {
 					resource = society_research
 					amount = 1
@@ -941,6 +1061,22 @@ romulan_homeworld = {
 					amount = 1
 					replace = yes
 				}				
+			}
+			create_pop = { 
+				species = owner_main_species
+				ethos = owner 
+			}
+			create_pop = { 
+				species = owner_main_species
+				ethos = owner 
+			}
+			create_pop = { 
+				species = owner_main_species
+				ethos = owner 
+			}
+			create_pop = { 
+				species = owner_main_species
+				ethos = owner 
 			}			
 		}
 	}
@@ -972,6 +1108,21 @@ romulan_homeworld = {
 		}
 	}
 
+	#neighbor_system = {
+		#The game will test all systems within the distance limit
+		#untill it finds a system that fulfills the trigger ( see below ).
+		#it will do this in a nearest-first order
+	#	distance = { min = 10 max = 100 }
+		
+		#if the trigger is left empty it will always succeed. The first closest system that is within the distance limits will be picked
+	#	trigger = {
+			#scope = galactic_object ( parent ). root = root gal obj. prev = closest parent. prev prev = grand parent...
+			#check stuff
+	#	}		
+		
+		#finally the initializer to be used for the picked system
+	#	initializer = "romulan_homeworld"
+	#}
 			
 }	
 
@@ -1006,7 +1157,7 @@ klingon_homeworld = {
 		class = "pc_tropical"
 		orbit_distance = 30
 		orbit_angle = 115
-		size = 17
+		size = 23
 		starting_planet = yes
 		has_ring = no
 		tile_blockers = none
@@ -1017,6 +1168,78 @@ klingon_homeworld = {
 		}
 		
 		init_effect = {
+
+			set_capital = yes
+
+			every_country = {
+				limit = {
+					has_country_flag = klingon_empire
+				}
+				save_event_target_as = klingon_empire
+			}
+
+			set_owner = event_target:klingon_empire
+
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"
@@ -1077,7 +1300,6 @@ klingon_homeworld = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
 				add_resource = {
 					resource = society_research
 					amount = 1
@@ -1086,7 +1308,6 @@ klingon_homeworld = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
 				add_resource = {
 					resource = physics_research
 					amount = 1
@@ -1104,7 +1325,6 @@ klingon_homeworld = {
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
 				add_resource = {
 					resource = food
 					amount = 1
@@ -1127,7 +1347,20 @@ klingon_homeworld = {
 					amount = 1
 					replace = yes
 				}				
-			}			
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_power_plant_1"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_mining_network_1"			
+			}	
 		}
 		moon = {
 			name = "Praxis"

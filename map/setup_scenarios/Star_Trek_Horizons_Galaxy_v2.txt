@@ -4,8 +4,8 @@ static_galaxy_scenario = {
     priority = 0
     default = no
     colonizable_planet_odds = 1.0
-    num_empires = { min = 1 max = 35 }
-    num_empire_default = 35
+    num_empires = { min = 1 max = 34 }
+    num_empire_default = 34
     advanced_empire_default = 0
     core_radius = 0
     random_hyperlanes = yes
@@ -3111,17 +3111,6 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Sol"
-        id = "383"
-        position = {
-            x = -21
-            y = 345
-        }
-        initializer = sol_system_initializer
-        spawn_weight = { base = 1 }
-    }
-
-    system = {
         id = "384"
         position = {
             x = -68
@@ -3327,8 +3316,6 @@ static_galaxy_scenario = {
             x = 23.33934
             y = -24.23696
         }
-        initializer = wonkytonk_1
-        spawn_weight = { base = 1 }
     }
 
     system = {
@@ -8024,16 +8011,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        name = "Romulus"
-        id = "992"
-        position = {
-            x = -173
-            y = 318
-        }
-        initializer = romulan_homeworld
-        spawn_weight = { base = 1 }
-    }
+    
 
     system = {
         name = "Teneb"
@@ -9082,16 +9060,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        name = "Qo'nos"
-        id = "1122"
-        position = {
-            x = -172.2537
-            y = 406
-        }
-        initializer = klingon_homeworld
-        spawn_weight = { base = 1 }
-    }
+    
 
     system = {
         id = "1123"
@@ -14200,6 +14169,50 @@ static_galaxy_scenario = {
             y = -111.0298
         }
         radius = 30
+    }
+
+    system = {
+        name = "Romulus"
+        id = "Romulus"
+        position = {
+            x = -173
+            y = 318
+        }
+        initializer = romulan_homeworld
+        spawn_weight = {
+        base = 0
+        modifier = {
+             add = 100000
+             has_country_flag = romulan_empire
+            }
+        }
+    }
+
+    system = {
+        name = "Sol"
+        id = "383"
+        position = {
+            x = -21
+            y = 345
+        }
+        
+    }
+
+    system = {
+        name = "Qo'nos"
+        id = "1122"
+        position = {
+            x = -172.2537
+            y = 406
+        }
+        initializer = klingon_homeworld
+        spawn_weight = {
+        base = 0
+        modifier = {
+             add = 100000
+             has_country_flag = klingon_empire
+            }
+        }
     }
 
 }
