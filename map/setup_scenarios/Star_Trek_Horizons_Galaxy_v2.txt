@@ -99,23 +99,7 @@ static_galaxy_scenario = {
 
   
 
-    system = {
-        id = "17"
-        position = {
-            x = -410
-            y = 140
-        }
-    }
-
-  
-    system = {
-        id = "19"
-        position = {
-            x = -402
-            y = -181
-        }
-    }
-
+   
    
 
     system = {
@@ -155,21 +139,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "32"
-        position = {
-            x = -375
-            y = -55
-        }
-    }
-
-    system = {
-        id = "33"
-        position = {
-            x = -372
-            y = -162
-        }
-    }
+    
 
     system = {
         id = "34"
@@ -205,21 +175,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "40"
-        position = {
-            x = -364
-            y = -408
-        }
-    }
-
-    system = {
-        id = "41"
-        position = {
-            x = -363
-            y = -26
-        }
-    }
+    
 
     system = {
         name = "Lyridia Prime"
@@ -248,29 +204,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "45"
-        position = {
-            x = -361
-            y = 173
-        }
-    }
-
-    system = {
-        id = "46"
-        position = {
-            x = -360
-            y = -483
-        }
-    }
-
-    system = {
-        id = "47"
-        position = {
-            x = -360
-            y = 142
-        }
-    }
+    
 
     system = {
         id = "48"
@@ -305,21 +239,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "54"
-        position = {
-            x = -356
-            y = -108
-        }
-    }
-
-    system = {
-        id = "55"
-        position = {
-            x = -356
-            y = -32
-        }
-    }
+   
 
     system = {
         id = "56"
@@ -357,21 +277,7 @@ static_galaxy_scenario = {
         spawn_weight = { base = 1 }
     }
 
-    system = {
-        id = "62"
-        position = {
-            x = -350
-            y = -462
-        }
-    }
-
-    system = {
-        id = "63"
-        position = {
-            x = -350
-            y = -158
-        }
-    }
+    
 
     system = {
         id = "64"
@@ -405,21 +311,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "68"
-        position = {
-            x = -344
-            y = 21
-        }
-    }
-
-    system = {
-        id = "69"
-        position = {
-            x = -344
-            y = 258
-        }
-    }
+    
 
    
     system = {
@@ -446,21 +338,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "76"
-        position = {
-            x = -331
-            y = 123
-        }
-    }
-
-    system = {
-        id = "77"
-        position = {
-            x = -331
-            y = 183
-        }
-    }
+  
 
     system = {
         id = "78"
@@ -502,22 +380,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "83"
-        position = {
-            x = -318
-            y = 69
-        }
-    }
-
-    system = {
-        id = "84"
-        position = {
-            x = -318
-            y = 254
-        }
-    }
-
+   
     
 
     system = {
@@ -544,22 +407,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "91"
-        position = {
-            x = -308
-            y = 68
-        }
-    }
-
-    system = {
-        id = "92"
-        position = {
-            x = -308
-            y = 87
-        }
-    }
-
+   
     system = {
         id = "93"
         position = {
@@ -598,21 +446,7 @@ static_galaxy_scenario = {
         spawn_weight = { base = 1 }
     }
 
-    system = {
-        id = "97"
-        position = {
-            x = -289
-            y = 272
-        }
-    }
-
-    system = {
-        id = "98"
-        position = {
-            x = -286
-            y = -300
-        }
-    }
+    
 
     system = {
         id = "99"
@@ -648,21 +482,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "105"
-        position = {
-            x = -276
-            y = -75
-        }
-    }
-
-    system = {
-        id = "106"
-        position = {
-            x = -274
-            y = 151
-        }
-    }
+   
 
     system = {
         id = "107"
@@ -689,21 +509,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "112"
-        position = {
-            x = -271
-            y = -65
-        }
-    }
-
-    system = {
-        id = "113"
-        position = {
-            x = -269
-            y = -23
-        }
-    }
+    
 
     system = {
         name = "Caatati Prime"
@@ -750,21 +556,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "121"
-        position = {
-            x = -261
-            y = -54
-        }
-    }
-
-    system = {
-        id = "122"
-        position = {
-            x = -261
-            y = 22
-        }
-    }
+    
 
     system = {
         id = "123"
@@ -798,22 +590,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "129"
-        position = {
-            x = -252
-            y = 63
-        }
-    }
-
-    system = {
-        id = "130"
-        position = {
-            x = -251
-            y = 25
-        }
-    }
-
+    
     system = {
         id = "131"
         position = {
@@ -847,21 +624,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "138"
-        position = {
-            x = -244
-            y = 75
-        }
-    }
-
-    system = {
-        id = "139"
-        position = {
-            x = -243
-            y = 33
-        }
-    }
+   
 
     system = {
         id = "140"
@@ -895,29 +658,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "144"
-        position = {
-            x = -239
-            y = 89
-        }
-    }
-
-    system = {
-        id = "145"
-        position = {
-            x = -238
-            y = 54
-        }
-    }
-
-    system = {
-        id = "146"
-        position = {
-            x = -237
-            y = 33
-        }
-    }
+    
 
     system = {
         id = "147"
@@ -943,22 +684,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "150"
-        position = {
-            x = -233
-            y = 449
-        }
-    }
-
-    system = {
-        id = "151"
-        position = {
-            x = -231
-            y = -220
-        }
-    }
-
+    
     system = {
         id = "152"
         position = {
@@ -999,21 +725,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "157"
-        position = {
-            x = -226
-            y = 5
-        }
-    }
-
-    system = {
-        id = "158"
-        position = {
-            x = -224
-            y = 111
-        }
-    }
+   
 
     system = {
         id = "159"
@@ -1047,21 +759,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "163"
-        position = {
-            x = -221
-            y = 168
-        }
-    }
-
-    system = {
-        id = "164"
-        position = {
-            x = -219
-            y = 197
-        }
-    }
+    
 
     system = {
         id = "165"
@@ -1095,21 +793,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "169"
-        position = {
-            x = -217
-            y = 309
-        }
-    }
-
-    system = {
-        id = "170"
-        position = {
-            x = -216
-            y = -351
-        }
-    }
+   
 
     system = {
         id = "171"
@@ -1143,21 +827,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "175"
-        position = {
-            x = -214
-            y = -231
-        }
-    }
-
-    system = {
-        id = "176"
-        position = {
-            x = -213
-            y = -360
-        }
-    }
+   
 
     system = {
         id = "177"
@@ -1199,22 +869,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "182"
-        position = {
-            x = -202
-            y = 299
-        }
-    }
-
-    system = {
-        id = "183"
-        position = {
-            x = -201
-            y = -139
-        }
-    }
-
+   
     system = {
         id = "184"
         position = {
@@ -1247,21 +902,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "188"
-        position = {
-            x = -196
-            y = 161
-        }
-    }
-
-    system = {
-        id = "189"
-        position = {
-            x = -194
-            y = -250
-        }
-    }
+    
 
     system = {
         id = "190"
@@ -1303,21 +944,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "195"
-        position = {
-            x = -188
-            y = 236
-        }
-    }
-
-    system = {
-        id = "196"
-        position = {
-            x = -187
-            y = -41
-        }
-    }
+   
 
     system = {
         id = "197"
@@ -1343,13 +970,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "200"
-        position = {
-            x = -185
-            y = 311
-        }
-    }
+  
 
     system = {
         name = "Vaadwaur"
@@ -1402,21 +1023,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "207"
-        position = {
-            x = -179
-            y = 314
-        }
-    }
-
-    system = {
-        id = "208"
-        position = {
-            x = -178
-            y = 259
-        }
-    }
+    
 
     system = {
         id = "209"
@@ -1450,21 +1057,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "213"
-        position = {
-            x = -174
-            y = -103
-        }
-    }
-
-    system = {
-        id = "214"
-        position = {
-            x = -174
-            y = 149
-        }
-    }
+    
 
     system = {
         id = "215"
@@ -1490,21 +1083,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "218"
-        position = {
-            x = -170
-            y = 242
-        }
-    }
-
-    system = {
-        id = "219"
-        position = {
-            x = -169
-            y = -304
-        }
-    }
+   
 
     system = {
         name = "Devore Prime"
@@ -1549,21 +1128,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "225"
-        position = {
-            x = -166
-            y = 247
-        }
-    }
-
-    system = {
-        id = "226"
-        position = {
-            x = -165
-            y = -292
-        }
-    }
+    
 
     system = {
         id = "227"
@@ -1597,21 +1162,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "231"
-        position = {
-            x = -162
-            y = 297
-        }
-    }
-
-    system = {
-        id = "232"
-        position = {
-            x = -161
-            y = -305
-        }
-    }
+    
 
     system = {
         id = "233"
@@ -1653,21 +1204,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "238"
-        position = {
-            x = -155
-            y = -154
-        }
-    }
-
-    system = {
-        id = "239"
-        position = {
-            x = -155
-            y = 215
-        }
-    }
+    
 
     system = {
         id = "240"
@@ -1701,22 +1238,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "244"
-        position = {
-            x = -152
-            y = 207
-        }
-    }
-
-    system = {
-        id = "245"
-        position = {
-            x = -151
-            y = -162
-        }
-    }
-
+    
     system = {
         name = "Talaxia"
         id = "246"
@@ -1760,21 +1282,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "251"
-        position = {
-            x = -148
-            y = 400
-        }
-    }
-
-    system = {
-        id = "252"
-        position = {
-            x = -147
-            y = -40
-        }
-    }
+    
 
     system = {
         name = "Devron"
@@ -1803,21 +1311,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "256"
-        position = {
-            x = -144
-            y = -5
-        }
-    }
-
-    system = {
-        id = "257"
-        position = {
-            x = -143
-            y = 13
-        }
-    }
+    
 
     system = {
         id = "258"
@@ -1851,21 +1345,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "262"
-        position = {
-            x = -142
-            y = 150
-        }
-    }
-
-    system = {
-        id = "263"
-        position = {
-            x = -142
-            y = 253
-        }
-    }
+   
 
     system = {
         id = "264"
@@ -1899,21 +1379,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "268"
-        position = {
-            x = -138
-            y = -169
-        }
-    }
-
-    system = {
-        id = "269"
-        position = {
-            x = -138
-            y = -95
-        }
-    }
+   
 
     system = {
         id = "270"
@@ -1947,22 +1413,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "274"
-        position = {
-            x = -137
-            y = 225
-        }
-    }
-
-    system = {
-        id = "275"
-        position = {
-            x = -135
-            y = 246
-        }
-    }
-
+    
     system = {
         id = "276"
         position = {
@@ -2003,22 +1454,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "281"
-        position = {
-            x = -132
-            y = 382
-        }
-    }
-
-    system = {
-        id = "282"
-        position = {
-            x = -131
-            y = -394
-        }
-    }
-
+    
     system = {
         id = "283"
         position = {
@@ -2051,21 +1487,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "287"
-        position = {
-            x = -129
-            y = -278
-        }
-    }
-
-    system = {
-        id = "288"
-        position = {
-            x = -129
-            y = 104
-        }
-    }
+   
 
     system = {
         id = "289"
@@ -2099,21 +1521,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "293"
-        position = {
-            x = -126
-            y = -175
-        }
-    }
-
-    system = {
-        id = "294"
-        position = {
-            x = -125
-            y = -400
-        }
-    }
+   
 
     system = {
         id = "295"
@@ -2147,21 +1555,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "299"
-        position = {
-            x = -122
-            y = 71
-        }
-    }
-
-    system = {
-        id = "300"
-        position = {
-            x = -121
-            y = -114
-        }
-    }
+    
 
     system = {
         id = "301"
@@ -2195,21 +1589,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "305"
-        position = {
-            x = -118
-            y = -138
-        }
-    }
-
-    system = {
-        id = "306"
-        position = {
-            x = -117
-            y = 30
-        }
-    }
+    
 
     system = {
         id = "307"
@@ -2243,21 +1623,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "311"
-        position = {
-            x = -114
-            y = 353
-        }
-    }
-
-    system = {
-        id = "312"
-        position = {
-            x = -113
-            y = -430
-        }
-    }
+   
 
     system = {
         id = "313"
@@ -2299,21 +1665,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "318"
-        position = {
-            x = -110
-            y = -423
-        }
-    }
-
-    system = {
-        id = "319"
-        position = {
-            x = -110
-            y = -195
-        }
-    }
+    
 
     system = {
         id = "320"
@@ -2347,21 +1699,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "324"
-        position = {
-            x = -108
-            y = -122
-        }
-    }
-
-    system = {
-        id = "325"
-        position = {
-            x = -106
-            y = 40
-        }
-    }
+    
 
     system = {
         id = "326"
@@ -2403,21 +1741,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "331"
-        position = {
-            x = -102
-            y = -26
-        }
-    }
-
-    system = {
-        id = "332"
-        position = {
-            x = -101
-            y = 98
-        }
-    }
+    
 
     system = {
         id = "333"
@@ -2459,21 +1783,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "338"
-        position = {
-            x = -95
-            y = -340
-        }
-    }
-
-    system = {
-        id = "339"
-        position = {
-            x = -95
-            y = 138
-        }
-    }
+    
 
     system = {
         name = "Krenim Prime"
@@ -2502,21 +1812,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "343"
-        position = {
-            x = -92
-            y = -14
-        }
-    }
-
-    system = {
-        id = "344"
-        position = {
-            x = -92
-            y = 394
-        }
-    }
+    
 
     system = {
         id = "345"
@@ -2553,21 +1849,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "349"
-        position = {
-            x = -88
-            y = -419
-        }
-    }
-
-    system = {
-        id = "350"
-        position = {
-            x = -88
-            y = -332
-        }
-    }
+    
 
     system = {
         id = "351"
@@ -2601,21 +1883,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "355"
-        position = {
-            x = -86
-            y = 184
-        }
-    }
-
-    system = {
-        id = "356"
-        position = {
-            x = -85
-            y = 227
-        }
-    }
+   
 
     system = {
         id = "357"
@@ -2649,21 +1917,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "361"
-        position = {
-            x = -79
-            y = -202
-        }
-    }
-
-    system = {
-        id = "362"
-        position = {
-            x = -78
-            y = -167
-        }
-    }
+   
 
     system = {
         id = "363"
@@ -2705,21 +1959,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "368"
-        position = {
-            x = -76
-            y = 175
-        }
-    }
-
-    system = {
-        id = "369"
-        position = {
-            x = -75
-            y = -340
-        }
-    }
 
     system = {
         id = "370"
@@ -2753,21 +1992,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "374"
-        position = {
-            x = -72
-            y = 229
-        }
-    }
-
-    system = {
-        id = "375"
-        position = {
-            x = -71
-            y = -47
-        }
-    }
 
     system = {
         id = "376"
@@ -2793,29 +2017,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "379"
-        position = {
-            x = -70
-            y = -47
-        }
-    }
-
-    system = {
-        id = "380"
-        position = {
-            x = -70
-            y = 43
-        }
-    }
-
-    system = {
-        id = "381"
-        position = {
-            x = -69
-            y = 460
-        }
-    }
+    
 
     system = {
         id = "382"
@@ -2849,22 +2051,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "387"
-        position = {
-            x = -64
-            y = -44
-        }
-    }
-
-    system = {
-        id = "388"
-        position = {
-            x = -63
-            y = -188
-        }
-    }
-
+   
     system = {
         id = "389"
         position = {
@@ -2897,21 +2084,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "393"
-        position = {
-            x = -62
-            y = -85
-        }
-    }
-
-    system = {
-        id = "394"
-        position = {
-            x = -62
-            y = 31
-        }
-    }
 
     system = {
         id = "395"
@@ -2945,29 +2117,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "399"
-        position = {
-            x = -61
-            y = 190
-        }
-    }
-
-    system = {
-        id = "400"
-        position = {
-            x = -61
-            y = 269
-        }
-    }
-
-    system = {
-        id = "401"
-        position = {
-            x = -60
-            y = 240
-        }
-    }
+    
 
     system = {
         id = "402"
@@ -3001,21 +2151,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "406"
-        position = {
-            x = -57
-            y = -197
-        }
-    }
-
-    system = {
-        id = "407"
-        position = {
-            x = -57
-            y = 345
-        }
-    }
+    
 
     system = {
         id = "408"
@@ -3049,21 +2185,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "412"
-        position = {
-            x = -53
-            y = -287
-        }
-    }
-
-    system = {
-        id = "413"
-        position = {
-            x = -52
-            y = -163
-        }
-    }
+    
 
     system = {
         id = "414"
@@ -3097,21 +2219,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "418"
-        position = {
-            x = -50
-            y = 379
-        }
-    }
-
-    system = {
-        id = "419"
-        position = {
-            x = -49
-            y = -204
-        }
-    }
 
     system = {
         id = "420"
@@ -3153,21 +2260,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "425"
-        position = {
-            x = -47
-            y = 460
-        }
-    }
-
-    system = {
-        id = "426"
-        position = {
-            x = -46
-            y = -123
-        }
-    }
+    
 
     system = {
         id = "427"
@@ -3201,21 +2294,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "431"
-        position = {
-            x = -40
-            y = -434
-        }
-    }
-
-    system = {
-        id = "432"
-        position = {
-            x = -39
-            y = -440
-        }
-    }
+    
 
     system = {
         id = "433"
@@ -3241,29 +2320,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "436"
-        position = {
-            x = -35
-            y = -230
-        }
-    }
-
-    system = {
-        id = "437"
-        position = {
-            x = -35
-            y = 238
-        }
-    }
-
-    system = {
-        id = "438"
-        position = {
-            x = -34
-            y = -237
-        }
-    }
+  
 
     system = {
         id = "439"
@@ -3305,21 +2362,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "444"
-        position = {
-            x = -32
-            y = 329
-        }
-    }
-
-    system = {
-        id = "445"
-        position = {
-            x = -31
-            y = -342
-        }
-    }
+   
 
     system = {
         id = "446"
@@ -3353,29 +2396,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "450"
-        position = {
-            x = -27
-            y = 122
-        }
-    }
-
-    system = {
-        id = "451"
-        position = {
-            x = -26
-            y = 42
-        }
-    }
-
-    system = {
-        id = "452"
-        position = {
-            x = -26
-            y = 248
-        }
-    }
+   
 
     system = {
         id = "453"
@@ -3401,22 +2422,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "456"
-        position = {
-            x = -23
-            y = 274
-        }
-    }
-
-    system = {
-        id = "457"
-        position = {
-            x = -26.62508
-            y = 360.9779
-        }
-    }
-
+ 
     system = {
         id = "458"
         position = {
@@ -3449,21 +2455,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "462"
-        position = {
-            x = -17
-            y = -177
-        }
-    }
-
-    system = {
-        id = "463"
-        position = {
-            x = -17
-            y = -73
-        }
-    }
+   
 
     system = {
         id = "464"
@@ -3497,22 +2489,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "468"
-        position = {
-            x = -12
-            y = -487
-        }
-    }
-
-    system = {
-        id = "469"
-        position = {
-            x = -12
-            y = -147
-        }
-    }
-
+   
     system = {
         name = "Tellar"
         id = "470"
@@ -3524,13 +2501,7 @@ static_galaxy_scenario = {
         spawn_weight = { base = 1 }
     }
 
-    system = {
-        id = "471"
-        position = {
-            x = -10
-            y = -130
-        }
-    }
+  
 
     system = {
         id = "472"
@@ -3548,21 +2519,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "474"
-        position = {
-            x = -8
-            y = -492
-        }
-    }
-
-    system = {
-        id = "475"
-        position = {
-            x = -8
-            y = -119
-        }
-    }
+    
 
     system = {
         id = "476"
@@ -3596,22 +2553,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "480"
-        position = {
-            x = -3
-            y = -351
-        }
-    }
-
-    system = {
-        id = "481"
-        position = {
-            x = -3
-            y = -143
-        }
-    }
-
+    
     system = {
         id = "482"
         position = {
@@ -3636,22 +2578,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "485"
-        position = {
-            x = -1
-            y = -256
-        }
-    }
-
-    system = {
-        id = "486"
-        position = {
-            x = -1
-            y = 307
-        }
-    }
-
+    
     system = {
         name = "Breen"
         id = "487"
@@ -3703,21 +2630,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "493"
-        position = {
-            x = 5
-            y = -55
-        }
-    }
-
-    system = {
-        id = "494"
-        position = {
-            x = 7
-            y = 70
-        }
-    }
+   
 
     system = {
         id = "495"
@@ -3751,21 +2664,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "499"
-        position = {
-            x = 9
-            y = -117
-        }
-    }
-
-    system = {
-        id = "500"
-        position = {
-            x = 9
-            y = -87
-        }
-    }
+    
 
     system = {
         id = "501"
@@ -3799,21 +2698,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "505"
-        position = {
-            x = 11
-            y = 61
-        }
-    }
-
-    system = {
-        id = "506"
-        position = {
-            x = 12
-            y = 107
-        }
-    }
+   
 
     system = {
         id = "507"
@@ -3847,21 +2732,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "511"
-        position = {
-            x = 19
-            y = 216
-        }
-    }
-
-    system = {
-        id = "512"
-        position = {
-            x = 19
-            y = 323
-        }
-    }
+    
 
     system = {
         id = "513"
@@ -3903,21 +2774,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "518"
-        position = {
-            x = 22
-            y = 118
-        }
-    }
-
-    system = {
-        id = "519"
-        position = {
-            x = 22
-            y = 242
-        }
-    }
+    
 
     system = {
         id = "520"
@@ -3943,29 +2800,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "523"
-        position = {
-            x = 25
-            y = -235
-        }
-    }
-
-    system = {
-        id = "524"
-        position = {
-            x = 25
-            y = -77
-        }
-    }
-
-    system = {
-        id = "525"
-        position = {
-            x = 25
-            y = 133
-        }
-    }
+   
 
     system = {
         id = "526"
@@ -3999,21 +2834,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "530"
-        position = {
-            x = 29
-            y = -465
-        }
-    }
-
-    system = {
-        id = "531"
-        position = {
-            x = 29
-            y = -54
-        }
-    }
+   
 
     system = {
         id = "532"
@@ -4047,21 +2868,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "536"
-        position = {
-            x = 31
-            y = -119
-        }
-    }
-
-    system = {
-        id = "537"
-        position = {
-            x = 32
-            y = -461
-        }
-    }
+ 
 
     system = {
         id = "538"
@@ -4103,21 +2910,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "543"
-        position = {
-            x = 34
-            y = -301
-        }
-    }
-
-    system = {
-        id = "544"
-        position = {
-            x = 35
-            y = 431
-        }
-    }
+    
 
     system = {
         id = "545"
@@ -4151,21 +2944,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "549"
-        position = {
-            x = 42
-            y = -354
-        }
-    }
-
-    system = {
-        id = "550"
-        position = {
-            x = 43
-            y = -120
-        }
-    }
+   
 
     system = {
         id = "551"
@@ -4199,29 +2978,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "555"
-        position = {
-            x = 46
-            y = -134
-        }
-    }
-
-    system = {
-        id = "556"
-        position = {
-            x = 46
-            y = -47
-        }
-    }
-
-    system = {
-        id = "557"
-        position = {
-            x = 46
-            y = 238
-        }
-    }
+  
 
     system = {
         id = "558"
@@ -4255,21 +3012,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "562"
-        position = {
-            x = 49
-            y = 76
-        }
-    }
-
-    system = {
-        id = "563"
-        position = {
-            x = 49
-            y = 178
-        }
-    }
+    
 
     system = {
         id = "564"
@@ -4296,21 +3039,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "567"
-        position = {
-            x = 50
-            y = -105
-        }
-    }
-
-    system = {
-        id = "568"
-        position = {
-            x = 50
-            y = 222
-        }
-    }
+   
 
     system = {
         id = "569"
@@ -4352,21 +3081,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "574"
-        position = {
-            x = 56
-            y = -85
-        }
-    }
-
-    system = {
-        id = "575"
-        position = {
-            x = 56
-            y = 67
-        }
-    }
+    
 
     system = {
         id = "576"
@@ -4400,21 +3115,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "580"
-        position = {
-            x = 59
-            y = -9
-        }
-    }
-
-    system = {
-        id = "581"
-        position = {
-            x = 60
-            y = 196
-        }
-    }
+  
 
     system = {
         id = "582"
@@ -4448,21 +3149,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "586"
-        position = {
-            x = 61
-            y = 218
-        }
-    }
-
-    system = {
-        id = "587"
-        position = {
-            x = 62
-            y = 235
-        }
-    }
 
     system = {
         id = "588"
@@ -4496,22 +3182,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "592"
-        position = {
-            x = 64
-            y = -245
-        }
-    }
-
-    system = {
-        id = "593"
-        position = {
-            x = 64
-            y = 85
-        }
-    }
-
+   
     system = {
         id = "594"
         position = {
@@ -4552,21 +3223,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "599"
-        position = {
-            x = 65
-            y = 62
-        }
-    }
-
-    system = {
-        id = "600"
-        position = {
-            x = 65
-            y = 350
-        }
-    }
+ 
 
     system = {
         id = "601"
@@ -4611,13 +3268,6 @@ static_galaxy_scenario = {
         spawn_weight = { base = 1 }
     }
 
-    system = {
-        id = "606"
-        position = {
-            x = 68
-            y = 174
-        }
-    }
 
     system = {
         id = "607"
@@ -4651,22 +3301,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "611"
-        position = {
-            x = 73
-            y = 12
-        }
-    }
-
-    system = {
-        id = "612"
-        position = {
-            x = 73
-            y = 232
-        }
-    }
-
+  
     system = {
         id = "613"
         position = {
@@ -4699,21 +3334,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "617"
-        position = {
-            x = 76
-            y = -172
-        }
-    }
-
-    system = {
-        id = "618"
-        position = {
-            x = 76
-            y = 333
-        }
-    }
+ 
 
     system = {
         id = "619"
@@ -4747,21 +3368,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "623"
-        position = {
-            x = 77
-            y = 339
-        }
-    }
-
-    system = {
-        id = "624"
-        position = {
-            x = 78
-            y = -246
-        }
-    }
+   
 
     system = {
         id = "625"
@@ -4795,21 +3402,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "629"
-        position = {
-            x = 79
-            y = 460
-        }
-    }
-
-    system = {
-        id = "630"
-        position = {
-            x = 80
-            y = -304
-        }
-    }
+  
 
     system = {
         id = "631"
@@ -4851,21 +3444,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "636"
-        position = {
-            x = 85
-            y = 46
-        }
-    }
-
-    system = {
-        id = "637"
-        position = {
-            x = 86
-            y = -219
-        }
-    }
+  
 
     system = {
         id = "638"
@@ -4896,22 +3475,6 @@ static_galaxy_scenario = {
         position = {
             x = 90
             y = 75
-        }
-    }
-
-    system = {
-        id = "642"
-        position = {
-            x = 90
-            y = 329
-        }
-    }
-
-    system = {
-        id = "643"
-        position = {
-            x = 91
-            y = -357
         }
     }
 
@@ -4947,22 +3510,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "648"
-        position = {
-            x = 94
-            y = 96
-        }
-    }
-
-    system = {
-        id = "649"
-        position = {
-            x = 94
-            y = 134
-        }
-    }
-
+   
     system = {
         id = "650"
         position = {
@@ -4995,21 +3543,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "654"
-        position = {
-            x = 97
-            y = 339
-        }
-    }
-
-    system = {
-        id = "655"
-        position = {
-            x = 98
-            y = -64
-        }
-    }
+   
 
     system = {
         id = "656"
@@ -5051,21 +3585,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "661"
-        position = {
-            x = 104
-            y = -99
-        }
-    }
-
-    system = {
-        id = "662"
-        position = {
-            x = 104
-            y = 41
-        }
-    }
+  
 
     system = {
         id = "663"
@@ -5099,21 +3619,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "667"
-        position = {
-            x = 108
-            y = 92
-        }
-    }
-
-    system = {
-        id = "668"
-        position = {
-            x = 109
-            y = -243
-        }
-    }
+   
 
     system = {
         id = "669"
@@ -5144,22 +3650,6 @@ static_galaxy_scenario = {
         position = {
             x = 110
             y = 421
-        }
-    }
-
-    system = {
-        id = "673"
-        position = {
-            x = 111
-            y = 131
-        }
-    }
-
-    system = {
-        id = "674"
-        position = {
-            x = 112
-            y = -236
         }
     }
 
@@ -5203,21 +3693,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "680"
-        position = {
-            x = 114
-            y = 58
-        }
-    }
-
-    system = {
-        id = "681"
-        position = {
-            x = 114
-            y = 78
-        }
-    }
+    
 
     system = {
         id = "682"
@@ -5251,22 +3727,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "686"
-        position = {
-            x = 118
-            y = 17
-        }
-    }
-
-    system = {
-        id = "687"
-        position = {
-            x = 118
-            y = 95
-        }
-    }
-
+  
     system = {
         id = "688"
         position = {
@@ -5302,21 +3763,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "692"
-        position = {
-            x = 121
-            y = -318
-        }
-    }
-
-    system = {
-        id = "693"
-        position = {
-            x = 121
-            y = -246
-        }
-    }
 
     system = {
         id = "694"
@@ -5345,21 +3791,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "697"
-        position = {
-            x = 122
-            y = -254
-        }
-    }
-
-    system = {
-        id = "698"
-        position = {
-            x = 122
-            y = -76
-        }
-    }
+   
 
     system = {
         id = "699"
@@ -5401,22 +3833,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "704"
-        position = {
-            x = 127
-            y = 327
-        }
-    }
-
-    system = {
-        id = "705"
-        position = {
-            x = 128
-            y = -352
-        }
-    }
-
+ 
     system = {
         id = "706"
         position = {
@@ -5457,21 +3874,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "711"
-        position = {
-            x = 130
-            y = -18
-        }
-    }
-
-    system = {
-        id = "712"
-        position = {
-            x = 130
-            y = 18
-        }
-    }
+    
 
     system = {
         id = "713"
@@ -5489,21 +3892,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "715"
-        position = {
-            x = 131
-            y = -60
-        }
-    }
-
-    system = {
-        id = "716"
-        position = {
-            x = 132
-            y = 63
-        }
-    }
+  
 
     system = {
         id = "717"
@@ -5545,22 +3934,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "722"
-        position = {
-            x = 135
-            y = -350
-        }
-    }
-
-    system = {
-        id = "723"
-        position = {
-            x = 135
-            y = -152
-        }
-    }
-
+   
     system = {
         id = "724"
         position = {
@@ -5593,21 +3967,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "728"
-        position = {
-            x = 141
-            y = -214
-        }
-    }
-
-    system = {
-        id = "729"
-        position = {
-            x = 141
-            y = 280
-        }
-    }
+    
 
     system = {
         id = "730"
@@ -5649,21 +4009,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "735"
-        position = {
-            x = 145
-            y = 144
-        }
-    }
-
-    system = {
-        id = "736"
-        position = {
-            x = 145
-            y = 267
-        }
-    }
+   
 
     system = {
         id = "737"
@@ -5697,21 +4043,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "741"
-        position = {
-            x = 149
-            y = -57
-        }
-    }
-
-    system = {
-        id = "742"
-        position = {
-            x = 150
-            y = -228
-        }
-    }
+    
 
     system = {
         id = "743"
@@ -5748,21 +4080,7 @@ static_galaxy_scenario = {
         spawn_weight = { base = 1 }
     }
 
-    system = {
-        id = "747"
-        position = {
-            x = 153
-            y = 432
-        }
-    }
-
-    system = {
-        id = "748"
-        position = {
-            x = 154
-            y = -165
-        }
-    }
+ 
 
     system = {
         id = "749"
@@ -5796,22 +4114,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "753"
-        position = {
-            x = 157
-            y = -147
-        }
-    }
-
-    system = {
-        id = "754"
-        position = {
-            x = 157
-            y = 283
-        }
-    }
-
+  
     system = {
         id = "755"
         position = {
@@ -5852,21 +4155,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "760"
-        position = {
-            x = 158
-            y = 280
-        }
-    }
-
-    system = {
-        id = "761"
-        position = {
-            x = 158
-            y = 307
-        }
-    }
 
     system = {
         id = "762"
@@ -5901,14 +4189,6 @@ static_galaxy_scenario = {
         }
         initializer = retalyx_random_spawn
         spawn_weight = { base = 1 }
-    }
-
-    system = {
-        id = "766"
-        position = {
-            x = 165
-            y = -227
-        }
     }
 
     system = {
@@ -5951,21 +4231,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "772"
-        position = {
-            x = 169
-            y = 140
-        }
-    }
-
-    system = {
-        id = "773"
-        position = {
-            x = 169
-            y = 302
-        }
-    }
+    
 
     system = {
         id = "774"
@@ -5996,22 +4262,6 @@ static_galaxy_scenario = {
         position = {
             x = 170
             y = 94
-        }
-    }
-
-    system = {
-        id = "778"
-        position = {
-            x = 171
-            y = 235
-        }
-    }
-
-    system = {
-        id = "779"
-        position = {
-            x = 173
-            y = -125
         }
     }
 
@@ -6047,29 +4297,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "784"
-        position = {
-            x = 177
-            y = -147
-        }
-    }
-
-    system = {
-        id = "785"
-        position = {
-            x = 177
-            y = 153
-        }
-    }
-
-    system = {
-        id = "786"
-        position = {
-            x = 178
-            y = -228
-        }
-    }
+   
 
     system = {
         id = "787"
@@ -6095,21 +4323,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "790"
-        position = {
-            x = 179
-            y = 295
-        }
-    }
-
-    system = {
-        id = "791"
-        position = {
-            x = 180
-            y = -11
-        }
-    }
 
     system = {
         id = "792"
@@ -6151,21 +4364,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "797"
-        position = {
-            x = 183
-            y = -332
-        }
-    }
-
-    system = {
-        id = "798"
-        position = {
-            x = 183
-            y = -122
-        }
-    }
 
     system = {
         id = "799"
@@ -6199,22 +4397,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "803"
-        position = {
-            x = 189
-            y = -334
-        }
-    }
-
-    system = {
-        id = "804"
-        position = {
-            x = 190
-            y = -325
-        }
-    }
-
+    
     system = {
         id = "805"
         position = {
@@ -6247,21 +4430,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "809"
-        position = {
-            x = 193
-            y = -126
-        }
-    }
-
-    system = {
-        id = "810"
-        position = {
-            x = 194
-            y = 371
-        }
-    }
+    
 
     system = {
         id = "811"
@@ -6295,21 +4464,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "815"
-        position = {
-            x = 199
-            y = -328
-        }
-    }
-
-    system = {
-        id = "816"
-        position = {
-            x = 199
-            y = 259
-        }
-    }
+   
 
     system = {
         id = "817"
@@ -6343,21 +4498,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "821"
-        position = {
-            x = 203
-            y = 18
-        }
-    }
-
-    system = {
-        id = "822"
-        position = {
-            x = 203
-            y = 368
-        }
-    }
+   
 
     system = {
         id = "823"
@@ -6399,21 +4540,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "828"
-        position = {
-            x = 207
-            y = -442
-        }
-    }
-
-    system = {
-        id = "829"
-        position = {
-            x = 209
-            y = -435
-        }
-    }
+    
 
     system = {
         id = "830"
@@ -6447,21 +4574,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "834"
-        position = {
-            x = 211
-            y = -107
-        }
-    }
-
-    system = {
-        id = "835"
-        position = {
-            x = 211
-            y = 465
-        }
-    }
 
     system = {
         id = "836"
@@ -6495,22 +4607,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "840"
-        position = {
-            x = 217
-            y = -437
-        }
-    }
-
-    system = {
-        id = "841"
-        position = {
-            x = 217
-            y = 74
-        }
-    }
-
+   
     system = {
         id = "842"
         position = {
@@ -6543,21 +4640,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "846"
-        position = {
-            x = 219
-            y = 0
-        }
-    }
-
-    system = {
-        id = "847"
-        position = {
-            x = 220
-            y = -211
-        }
-    }
+  
 
     system = {
         id = "848"
@@ -6602,14 +4685,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "853"
-        position = {
-            x = 226
-            y = 45
-        }
-    }
-
+  
     system = {
         id = "854"
         position = {
@@ -6645,21 +4721,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "858"
-        position = {
-            x = 228
-            y = -448
-        }
-    }
-
-    system = {
-        id = "859"
-        position = {
-            x = 228
-            y = -188
-        }
-    }
+    
 
     system = {
         id = "860"
@@ -6702,22 +4764,6 @@ static_galaxy_scenario = {
     }
 
     system = {
-        id = "865"
-        position = {
-            x = 230
-            y = 157
-        }
-    }
-
-    system = {
-        id = "866"
-        position = {
-            x = 233
-            y = -63
-        }
-    }
-
-    system = {
         id = "867"
         position = {
             x = 235
@@ -6749,21 +4795,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "871"
-        position = {
-            x = 241
-            y = -181
-        }
-    }
-
-    system = {
-        id = "872"
-        position = {
-            x = 241
-            y = 149
-        }
-    }
 
     system = {
         name = "Vulcan"
@@ -6795,21 +4826,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "876"
-        position = {
-            x = 243
-            y = 97
-        }
-    }
-
-    system = {
-        id = "877"
-        position = {
-            x = 246
-            y = -453
-        }
-    }
+   
 
     system = {
         name = "Benzar"
@@ -6854,21 +4871,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "883"
-        position = {
-            x = 255
-            y = -8
-        }
-    }
-
-    system = {
-        id = "884"
-        position = {
-            x = 256
-            y = 123
-        }
-    }
 
     system = {
         id = "885"
@@ -6894,29 +4896,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "888"
-        position = {
-            x = 258
-            y = 102
-        }
-    }
-
-    system = {
-        id = "889"
-        position = {
-            x = 260
-            y = 120
-        }
-    }
-
-    system = {
-        id = "890"
-        position = {
-            x = 261
-            y = 131
-        }
-    }
+  
 
     system = {
         id = "891"
@@ -6950,21 +4930,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "895"
-        position = {
-            x = 266
-            y = 314
-        }
-    }
-
-    system = {
-        id = "896"
-        position = {
-            x = 267
-            y = 8
-        }
-    }
+    
 
     system = {
         id = "897"
@@ -6998,21 +4964,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "901"
-        position = {
-            x = 272
-            y = -287
-        }
-    }
-
-    system = {
-        id = "902"
-        position = {
-            x = 272
-            y = -145
-        }
-    }
+   
 
     system = {
         id = "903"
@@ -7043,22 +4995,6 @@ static_galaxy_scenario = {
         position = {
             x = 279
             y = -138
-        }
-    }
-
-    system = {
-        id = "907"
-        position = {
-            x = 280
-            y = -129
-        }
-    }
-
-    system = {
-        id = "908"
-        position = {
-            x = 281
-            y = -271
         }
     }
 
@@ -7094,21 +5030,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "913"
-        position = {
-            x = 286
-            y = -173
-        }
-    }
-
-    system = {
-        id = "914"
-        position = {
-            x = 289
-            y = 304
-        }
-    }
+  
 
     system = {
         id = "915"
@@ -7150,22 +5072,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "920"
-        position = {
-            x = 296
-            y = 261
-        }
-    }
-
-    system = {
-        id = "921"
-        position = {
-            x = 299
-            y = 54
-        }
-    }
-
+   
     system = {
         id = "922"
         position = {
@@ -7198,21 +5105,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "926"
-        position = {
-            x = 306
-            y = 235
-        }
-    }
-
-    system = {
-        id = "927"
-        position = {
-            x = 308
-            y = -142
-        }
-    }
+   
 
     system = {
         id = "928"
@@ -7246,21 +5139,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "932"
-        position = {
-            x = 321
-            y = -253
-        }
-    }
-
-    system = {
-        id = "933"
-        position = {
-            x = 322
-            y = -61
-        }
-    }
+    
 
     system = {
         id = "934"
@@ -7303,22 +5182,6 @@ static_galaxy_scenario = {
     }
 
     system = {
-        id = "939"
-        position = {
-            x = 329
-            y = 212
-        }
-    }
-
-    system = {
-        id = "940"
-        position = {
-            x = 329
-            y = 238
-        }
-    }
-
-    system = {
         id = "941"
         position = {
             x = 329
@@ -7350,22 +5213,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "945"
-        position = {
-            x = 333
-            y = -226
-        }
-    }
-
-    system = {
-        id = "946"
-        position = {
-            x = 333
-            y = 179
-        }
-    }
-
+    
     system = {
         id = "947"
         position = {
@@ -7395,22 +5243,6 @@ static_galaxy_scenario = {
         position = {
             x = 337
             y = -333
-        }
-    }
-
-    system = {
-        id = "951"
-        position = {
-            x = 338
-            y = -253
-        }
-    }
-
-    system = {
-        id = "952"
-        position = {
-            x = 338
-            y = -44
         }
     }
 
@@ -7446,21 +5278,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "957"
-        position = {
-            x = 346
-            y = -24
-        }
-    }
-
-    system = {
-        id = "958"
-        position = {
-            x = 347
-            y = -251
-        }
-    }
+    
 
     system = {
         id = "959"
@@ -7494,29 +5312,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "963"
-        position = {
-            x = 350
-            y = -39
-        }
-    }
-
-    system = {
-        id = "964"
-        position = {
-            x = 350
-            y = 118
-        }
-    }
-
-    system = {
-        id = "965"
-        position = {
-            x = 354
-            y = -60
-        }
-    }
 
     system = {
         id = "966"
@@ -7551,22 +5346,6 @@ static_galaxy_scenario = {
     }
 
     system = {
-        id = "970"
-        position = {
-            x = 364
-            y = 4
-        }
-    }
-
-    system = {
-        id = "971"
-        position = {
-            x = 366
-            y = 0
-        }
-    }
-
-    system = {
         id = "972"
         position = {
             x = 366
@@ -7590,21 +5369,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "975"
-        position = {
-            x = 368
-            y = 386
-        }
-    }
-
-    system = {
-        id = "976"
-        position = {
-            x = 370
-            y = 13
-        }
-    }
+   
 
     system = {
         id = "977"
@@ -7646,22 +5411,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "982"
-        position = {
-            x = 375
-            y = -80
-        }
-    }
-
-    system = {
-        id = "983"
-        position = {
-            x = 375
-            y = 329
-        }
-    }
-
+   
     system = {
         id = "984"
         position = {
@@ -7694,22 +5444,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "988"
-        position = {
-            x = 379
-            y = -185
-        }
-    }
-
-    system = {
-        id = "989"
-        position = {
-            x = 380
-            y = -206
-        }
-    }
-
+   
     system = {
         id = "990"
         position = {
@@ -7747,21 +5482,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "995"
-        position = {
-            x = 409
-            y = -138
-        }
-    }
-
-    system = {
-        id = "996"
-        position = {
-            x = 412
-            y = -308
-        }
-    }
+   
 
     system = {
         id = "997"
@@ -7795,53 +5516,8 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1001"
-        position = {
-            x = 431
-            y = -27
-        }
-    }
 
-    system = {
-        id = "1002"
-        position = {
-            x = 445
-            y = 62
-        }
-    }
-
-    system = {
-        id = "1003"
-        position = {
-            x = 446
-            y = -139
-        }
-    }
-
-    system = {
-        id = "1004"
-        position = {
-            x = 448
-            y = -78
-        }
-    }
-
-    system = {
-        id = "1005"
-        position = {
-            x = 462
-            y = -361
-        }
-    }
-
-    system = {
-        id = "1006"
-        position = {
-            x = 465
-            y = -5
-        }
-    }
+  
 
     system = {
         id = "1007"
@@ -7910,21 +5586,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1015"
-        position = {
-            x = 226.3487
-            y = 184.8245
-        }
-    }
-
-    system = {
-        id = "1016"
-        position = {
-            x = 229.0892
-            y = 180.257
-        }
-    }
+    
 
     system = {
         id = "1017"
@@ -7950,21 +5612,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1020"
-        position = {
-            x = 259.2346
-            y = 13.08615
-        }
-    }
-
-    system = {
-        id = "1021"
-        position = {
-            x = 263.8022
-            y = 49.62626
-        }
-    }
 
     system = {
         name = "Bajor"
@@ -8001,22 +5648,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1026"
-        position = {
-            x = 251.9267
-            y = -28.0214
-        }
-    }
-
-    system = {
-        id = "1027"
-        position = {
-            x = 133.1714
-            y = -167.7872
-        }
-    }
-
+   
     system = {
         id = "1028"
         position = {
@@ -8049,22 +5681,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1032"
-        position = {
-            x = 97.54492
-            y = -169.6142
-        }
-    }
-
-    system = {
-        id = "1033"
-        position = {
-            x = 88.40989
-            y = -178.7492
-        }
-    }
-
+  
     system = {
         id = "1034"
         position = {
@@ -8089,29 +5706,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1037"
-        position = {
-            x = 0.7137146
-            y = -239.9538
-        }
-    }
-
-    system = {
-        id = "1038"
-        position = {
-            x = -3.853691
-            y = -250.0023
-        }
-    }
-
-    system = {
-        id = "1039"
-        position = {
-            x = -12.9888
-            y = -236.2998
-        }
-    }
+    
 
     system = {
         id = "1040"
@@ -8153,21 +5748,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1045"
-        position = {
-            x = 310.3908
-            y = -109.3231
-        }
-    }
-
-    system = {
-        id = "1046"
-        position = {
-            x = 331.4014
-            y = -81.00452
-        }
-    }
+   
 
     system = {
         id = "1047"
@@ -8210,22 +5791,6 @@ static_galaxy_scenario = {
     }
 
     system = {
-        id = "1052"
-        position = {
-            x = 356.0659
-            y = -13.40537
-        }
-    }
-
-    system = {
-        id = "1053"
-        position = {
-            x = 368.8549
-            y = 39.57771
-        }
-    }
-
-    system = {
         id = "1054"
         position = {
             x = 363.3739
@@ -8258,22 +5823,6 @@ static_galaxy_scenario = {
     }
 
     system = {
-        id = "1058"
-        position = {
-            x = 350.5849
-            y = 160.1599
-        }
-    }
-
-    system = {
-        id = "1059"
-        position = {
-            x = 352.412
-            y = 151.025
-        }
-    }
-
-    system = {
         name = "Tholia"
         id = "1060"
         position = {
@@ -8300,21 +5849,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1063"
-        position = {
-            x = 237.3107
-            y = 357.4763
-        }
-    }
-
-    system = {
-        id = "1064"
-        position = {
-            x = 217.2137
-            y = 386.7084
-        }
-    }
+  
 
     system = {
         id = "1065"
@@ -8348,22 +5883,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1069"
-        position = {
-            x = -20.29675
-            y = 464.356
-        }
-    }
-
-    system = {
-        id = "1070"
-        position = {
-            x = -100.685
-            y = 473.4911
-        }
-    }
-
+  
     system = {
         id = "1071"
         position = {
@@ -8405,22 +5925,6 @@ static_galaxy_scenario = {
     }
 
     system = {
-        id = "1076"
-        position = {
-            x = -326.3198
-            y = 405.892
-        }
-    }
-
-    system = {
-        id = "1077"
-        position = {
-            x = -298.9147
-            y = 424.1619
-        }
-    }
-
-    system = {
         id = "1078"
         position = {
             x = -314.4443
@@ -8455,22 +5959,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1082"
-        position = {
-            x = -200.3658
-            y = 123.3694
-        }
-    }
-
-    system = {
-        id = "1083"
-        position = {
-            x = -282.5759
-            y = -98.59784
-        }
-    }
-
+  
     system = {
         id = "1084"
         position = {
@@ -8503,21 +5992,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1088"
-        position = {
-            x = -260.6533
-            y = -157.058
-        }
-    }
-
-    system = {
-        id = "1089"
-        position = {
-            x = -211.327
-            y = -258.4505
-        }
-    }
 
     system = {
         id = "1090"
@@ -8551,21 +6025,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1094"
-        position = {
-            x = -144.6459
-            y = -296.8153
-        }
-    }
-
-    system = {
-        id = "1095"
-        position = {
-            x = -100.8003
-            y = -320.5648
-        }
-    }
 
     system = {
         id = "1096"
@@ -8607,21 +6066,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1101"
-        position = {
-            x = 8.813034
-            y = -368.0638
-        }
-    }
-
-    system = {
-        id = "1102"
-        position = {
-            x = 120.2536
-            y = -347.9681
-        }
-    }
 
     system = {
         id = "1103"
@@ -8655,21 +6099,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1107"
-        position = {
-            x = 408.9022
-            y = -178.981
-        }
-    }
-
-    system = {
-        id = "1108"
-        position = {
-            x = 429.9113
-            y = -103.1647
-        }
-    }
+ 
 
     system = {
         id = "1109"
@@ -8703,22 +6133,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1113"
-        position = {
-            x = 314.9438
-            y = -197.8077
-        }
-    }
-
-    system = {
-        id = "1114"
-        position = {
-            x = 312.7426
-            y = -238.3544
-        }
-    }
-
+   
     system = {
         id = "1115"
         position = {
@@ -8751,29 +6166,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1119"
-        position = {
-            x = -346.0733
-            y = -201.3945
-        }
-    }
-
-    system = {
-        id = "1120"
-        position = {
-            x = -328.629
-            y = -246.095
-        }
-    }
-
-    system = {
-        id = "1121"
-        position = {
-            x = -322.087
-            y = -254.8172
-        }
-    }
 
     
 
@@ -8804,13 +6196,7 @@ static_galaxy_scenario = {
         spawn_weight = { base = 1 }
     }
 
-    system = {
-        id = "1126"
-        position = {
-            x = -301.3724
-            y = -274.4416
-        }
-    }
+  
 
     system = {
         id = "1127"
@@ -8852,22 +6238,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1132"
-        position = {
-            x = -258.8526
-            y = -324.5936
-        }
-    }
-
-    system = {
-        id = "1133"
-        position = {
-            x = -277.3868
-            y = -319.1424
-        }
-    }
-
+    
     system = {
         id = "1134"
         position = {
@@ -8900,21 +6271,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1138"
-        position = {
-            x = -243.5894
-            y = -337.6763
-        }
-    }
-
-    system = {
-        id = "1139"
-        position = {
-            x = -234.867
-            y = -332.2252
-        }
-    }
 
     system = {
         id = "1140"
@@ -8940,30 +6296,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1143"
-        position = {
-            x = -143.2855
-            y = -410.7237
-        }
-    }
-
-    system = {
-        id = "1144"
-        position = {
-            x = -175.9929
-            y = -373.6553
-        }
-    }
-
-    system = {
-        id = "1145"
-        position = {
-            x = -192.3472
-            y = -347.489
-        }
-    }
-
+   
     system = {
         id = "1146"
         position = {
@@ -9005,22 +6338,6 @@ static_galaxy_scenario = {
     }
 
     system = {
-        id = "1151"
-        position = {
-            x = -95.31422
-            y = -419.4455
-        }
-    }
-
-    system = {
-        id = "1152"
-        position = {
-            x = 51.87048
-            y = -446.7024
-        }
-    }
-
-    system = {
         id = "1153"
         position = {
             x = 103.1121
@@ -9044,30 +6361,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1156"
-        position = {
-            x = 76.94662
-            y = -449.9731
-        }
-    }
-
-    system = {
-        id = "1157"
-        position = {
-            x = 102.0222
-            y = -464.1464
-        }
-    }
-
-    system = {
-        id = "1158"
-        position = {
-            x = 134.7302
-            y = -455.4246
-        }
-    }
-
+  
     system = {
         id = "1159"
         position = {
@@ -9100,22 +6394,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1163"
-        position = {
-            x = 261.1997
-            y = -421.6263
-        }
-    }
-
-    system = {
-        id = "1164"
-        position = {
-            x = 251.3873
-            y = -430.3487
-        }
-    }
-
+   
     system = {
         id = "1165"
         position = {
@@ -9148,22 +6427,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1169"
-        position = {
-            x = 264.4701
-            y = -451.0634
-        }
-    }
-
-    system = {
-        id = "1170"
-        position = {
-            x = 301.539
-            y = -410.7237
-        }
-    }
-
+  
     system = {
         id = "1171"
         position = {
@@ -9204,21 +6468,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1176"
-        position = {
-            x = 116.1954
-            y = -452.1539
-        }
-    }
-
-    system = {
-        id = "1177"
-        position = {
-            x = 126.0078
-            y = -448.8826
-        }
-    }
 
     system = {
         id = "1178"
@@ -9255,21 +6504,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1182"
-        position = {
-            x = 427.1216
-            y = -466.8058
-        }
-    }
-
-    system = {
-        id = "1183"
-        position = {
-            x = 467.5045
-            y = 81.38184
-        }
-    }
+   
 
     system = {
         id = "1184"
@@ -9300,14 +6535,6 @@ static_galaxy_scenario = {
         position = {
             x = 448.9695
             y = 159.8851
-        }
-    }
-
-    system = {
-        id = "1188"
-        position = {
-            x = 452.2403
-            y = 255.8336
         }
     }
 
@@ -9351,21 +6578,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1194"
-        position = {
-            x = 336.6663
-            y = 380.1303
-        }
-    }
-
-    system = {
-        id = "1195"
-        position = {
-            x = 412.9888
-            y = 343.0594
-        }
-    }
+  
 
     system = {
         id = "1196"
@@ -9396,30 +6609,6 @@ static_galaxy_scenario = {
         position = {
             x = 1.015232
             y = 367.5025
-        }
-    }
-
-    system = {
-        id = "1200"
-        position = {
-            x = -90.35277
-            y = 359.3809
-        }
-    }
-
-    system = {
-        id = "1201"
-        position = {
-            x = -140.0976
-            y = 351.2593
-        }
-    }
-
-    system = {
-        id = "1202"
-        position = {
-            x = -272.0736
-            y = 282.2257
         }
     }
 
@@ -9458,21 +6647,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1207"
-        position = {
-            x = -15.09458
-            y = 364.8472
-        }
-    }
-
-    system = {
-        id = "1208"
-        position = {
-            x = -9.930644
-            y = 356.5047
-        }
-    }
+   
 
     system = {
         id = "1209"
@@ -9491,13 +6666,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1211"
-        position = {
-            x = -32.09699
-            y = 303.5515
-        }
-    }
+   
 
     system = {
         id = "1212"
@@ -9549,22 +6718,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1218"
-        position = {
-            x = -61.17282
-            y = 367.6272
-        }
-    }
-
-    system = {
-        id = "1219"
-        position = {
-            x = -61.17282
-            y = 354.9165
-        }
-    }
-
+ 
     system = {
         id = "1220"
         position = {
@@ -9589,30 +6743,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1223"
-        position = {
-            x = -73.48682
-            y = 363.2578
-        }
-    }
-
-    system = {
-        id = "1224"
-        position = {
-            x = -83.02026
-            y = 381.9274
-        }
-    }
-
-    system = {
-        id = "1225"
-        position = {
-            x = -95.33426
-            y = 370.4084
-        }
-    }
-
+   
     system = {
         id = "1226"
         position = {
@@ -9653,21 +6784,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1231"
-        position = {
-            x = 25.42248
-            y = 340.2187
-        }
-    }
-
-    system = {
-        id = "1232"
-        position = {
-            x = 34.95591
-            y = 327.1102
-        }
-    }
+   
 
     system = {
         id = "1233"
@@ -9693,21 +6810,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1236"
-        position = {
-            x = 2.383365
-            y = 348.9576
-        }
-    }
-
-    system = {
-        id = "1237"
-        position = {
-            x = 2.383365
-            y = 348.9576
-        }
-    }
+    
 
     system = {
         id = "1238"
@@ -9749,21 +6852,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1243"
-        position = {
-            x = 10.32788
-            y = 278.2508
-        }
-    }
-
-    system = {
-        id = "1244"
-        position = {
-            x = 0.3972265
-            y = 262.7589
-        }
-    }
 
     system = {
         id = "1245"
@@ -9797,29 +6885,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1249"
-        position = {
-            x = -22.24466
-            y = 285.0038
-        }
-    }
-
-    system = {
-        id = "1250"
-        position = {
-            x = -16.68349
-            y = 299.304
-        }
-    }
-
-    system = {
-        id = "1251"
-        position = {
-            x = -9.930649
-            y = 301.6876
-        }
-    }
 
     system = {
         id = "1252"
@@ -9845,21 +6910,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1255"
-        position = {
-            x = 0.7944552
-            y = 291.3604
-        }
-    }
-
-    system = {
-        id = "1256"
-        position = {
-            x = -4.369485
-            y = 283.8132
-        }
-    }
+ 
 
     system = {
         id = "1257"
@@ -9901,21 +6952,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1262"
-        position = {
-            x = -81.82858
-            y = 344.1905
-        }
-    }
-
-    system = {
-        id = "1263"
-        position = {
-            x = -112.415
-            y = 339.0269
-        }
-    }
+   
 
     system = {
         id = "1264"
@@ -9949,21 +6986,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1268"
-        position = {
-            x = -92.95091
-            y = 344.9858
-        }
-    }
-
-    system = {
-        id = "1269"
-        position = {
-            x = -119.1678
-            y = 329.0962
-        }
-    }
+    
 
     system = {
         id = "1270"
@@ -9997,21 +7020,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1274"
-        position = {
-            x = -114.0039
-            y = 309.2347
-        }
-    }
-
-    system = {
-        id = "1275"
-        position = {
-            x = -123.9345
-            y = 253.227
-        }
-    }
+ 
 
     system = {
         id = "1276"
@@ -10053,21 +7062,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1281"
-        position = {
-            x = -150.5689
-            y = 344.8761
-        }
-    }
-
-    system = {
-        id = "1282"
-        position = {
-            x = -157.6988
-            y = 355.7106
-        }
-    }
 
     system = {
         id = "1283"
@@ -10101,21 +7095,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1287"
-        position = {
-            x = -202.5853
-            y = 358.8883
-        }
-    }
-
-    system = {
-        id = "1288"
-        position = {
-            x = -203.777
-            y = 356.9024
-        }
-    }
 
     system = {
         id = "1289"
@@ -10141,29 +7120,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1292"
-        position = {
-            x = -172.7934
-            y = 390.2687
-        }
-    }
-
-    system = {
-        id = "1293"
-        position = {
-            x = -148.5626
-            y = 389.4745
-        }
-    }
-
-    system = {
-        id = "1294"
-        position = {
-            x = -160.8766
-            y = 378.3521
-        }
-    }
+   
 
     system = {
         id = "1295"
@@ -10197,21 +7154,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1299"
-        position = {
-            x = -266.936
-            y = 291.7569
-        }
-    }
-
-    system = {
-        id = "1300"
-        position = {
-            x = -283.2222
-            y = 300.0993
-        }
-    }
+   
 
     system = {
         id = "1301"
@@ -10253,21 +7196,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1306"
-        position = {
-            x = -158.8904
-            y = 418.8691
-        }
-    }
-
-    system = {
-        id = "1307"
-        position = {
-            x = -204.5714
-            y = 426.0186
-        }
-    }
 
     system = {
         id = "1308"
@@ -10293,21 +7221,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1311"
-        position = {
-            x = -282.4278
-            y = 416.089
-        }
-    }
-
-    system = {
-        id = "1312"
-        position = {
-            x = -253.8275
-            y = 427.2115
-        }
-    }
+   
 
     system = {
         id = "1313"
@@ -10349,21 +7263,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1318"
-        position = {
-            x = -202.5853
-            y = 446.2776
-        }
-    }
-
-    system = {
-        id = "1319"
-        position = {
-            x = -192.0126
-            y = 461.1045
-        }
-    }
 
     system = {
         id = "1320"
@@ -10405,21 +7304,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1325"
-        position = {
-            x = -148.5548
-            y = 480.6168
-        }
-    }
-
-    system = {
-        id = "1326"
-        position = {
-            x = -129.0431
-            y = 479.2853
-        }
-    }
+   
 
     system = {
         id = "1327"
@@ -10453,21 +7338,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1331"
-        position = {
-            x = -124.1652
-            y = 456.6699
-        }
-    }
-
-    system = {
-        id = "1332"
-        position = {
-            x = -124.1652
-            y = 456.6699
-        }
-    }
+   
 
     system = {
         id = "1333"
@@ -10501,22 +7372,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1337"
-        position = {
-            x = -174.2747
-            y = 440.2631
-        }
-    }
-
-    system = {
-        id = "1338"
-        position = {
-            x = -55.87432
-            y = 450.0187
-        }
-    }
-
+   
     system = {
         id = "1339"
         position = {
@@ -10557,21 +7413,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1344"
-        position = {
-            x = -21.72889
-            y = 481.947
-        }
-    }
-
-    system = {
-        id = "1345"
-        position = {
-            x = -89.13287
-            y = 464.6526
-        }
-    }
+  
 
     system = {
         id = "1346"
@@ -10597,29 +7439,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1349"
-        position = {
-            x = -12.85995
-            y = 473.5217
-        }
-    }
-
-    system = {
-        id = "1350"
-        position = {
-            x = -3.104113
-            y = 461.9921
-        }
-    }
-
-    system = {
-        id = "1351"
-        position = {
-            x = -3.104113
-            y = 461.9921
-        }
-    }
+ 
 
     system = {
         id = "1352"
@@ -10653,21 +7473,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1356"
-        position = {
-            x = 40.79716
-            y = 445.1403
-        }
-    }
-
-    system = {
-        id = "1357"
-        position = {
-            x = 58.53505
-            y = 480.173
-        }
-    }
 
     system = {
         id = "1358"
@@ -10701,22 +7506,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1362"
-        position = {
-            x = 109.5315
-            y = 470.86
-        }
-    }
-
-    system = {
-        id = "1363"
-        position = {
-            x = 73.61226
-            y = 483.7211
-        }
-    }
-
+    
     system = {
         id = "1364"
         position = {
@@ -10749,21 +7539,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1368"
-        position = {
-            x = 113.966
-            y = 479.7303
-        }
-    }
-
-    system = {
-        id = "1369"
-        position = {
-            x = 94.89772
-            y = 487.7119
-        }
-    }
 
     system = {
         id = "1370"
@@ -10797,29 +7572,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1374"
-        position = {
-            x = 85.14188
-            y = 410.1088
-        }
-    }
-
-    system = {
-        id = "1375"
-        position = {
-            x = 108.2011
-            y = 401.6835
-        }
-    }
-
-    system = {
-        id = "1376"
-        position = {
-            x = 114.8528
-            y = 408.7786
-        }
-    }
+   
 
     system = {
         id = "1377"
@@ -10853,21 +7606,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1381"
-        position = {
-            x = 136.1383
-            y = 386.6058
-        }
-    }
-
-    system = {
-        id = "1382"
-        position = {
-            x = 145.8941
-            y = 380.841
-        }
-    }
+   
 
     system = {
         id = "1383"
@@ -10901,21 +7640,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1387"
-        position = {
-            x = 234.1401
-            y = 336.4966
-        }
-    }
-
-    system = {
-        id = "1388"
-        position = {
-            x = 234.1401
-            y = 336.4966
-        }
-    }
+   
 
     system = {
         id = "1389"
@@ -10949,21 +7674,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1393"
-        position = {
-            x = 264.4362
-            y = 362.3015
-        }
-    }
-
-    system = {
-        id = "1394"
-        position = {
-            x = 255.415
-            y = 365.6827
-        }
-    }
+  
 
     system = {
         id = "1395"
@@ -11005,29 +7716,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1400"
-        position = {
-            x = 305.032
-            y = 302.5349
-        }
-    }
 
-    system = {
-        id = "1401"
-        position = {
-            x = 325.3299
-            y = 299.1513
-        }
-    }
-
-    system = {
-        id = "1402"
-        position = {
-            x = 325.3299
-            y = 299.1513
-        }
-    }
 
     system = {
         id = "1403"
@@ -11045,21 +7734,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1405"
-        position = {
-            x = -137.9301
-            y = 297.5027
-        }
-    }
-
-    system = {
-        id = "1406"
-        position = {
-            x = -139.753
-            y = 319.9844
-        }
-    }
+    
 
     system = {
         id = "1407"
@@ -11093,29 +7768,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1411"
-        position = {
-            x = -130.6386
-            y = 399.5828
-        }
-    }
-
-    system = {
-        id = "1412"
-        position = {
-            x = -113.0176
-            y = 402.0125
-        }
-    }
-
-    system = {
-        id = "1413"
-        position = {
-            x = -185.9322
-            y = 431.7869
-        }
-    }
+   
 
     system = {
         id = "1414"
@@ -11149,21 +7802,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1418"
-        position = {
-            x = -209.6294
-            y = 402.0125
-        }
-    }
-
-    system = {
-        id = "1419"
-        position = {
-            x = -233.3267
-            y = 398.9757
-        }
-    }
+  
 
     system = {
         id = "1420"
@@ -11197,21 +7836,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1424"
-        position = {
-            x = -311.1023
-            y = 456.0912
-        }
-    }
-
-    system = {
-        id = "1425"
-        position = {
-            x = -364.5729
-            y = 413.5575
-        }
-    }
 
     system = {
         id = "1426"
@@ -11245,22 +7869,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1430"
-        position = {
-            x = 13.97531
-            y = 409.9124
-        }
-    }
-
-    system = {
-        id = "1431"
-        position = {
-            x = 6.07623
-            y = 417.811
-        }
-    }
-
+    
     system = {
         id = "1432"
         position = {
@@ -11301,21 +7910,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1437"
-        position = {
-            x = -18.22864
-            y = 398.3674
-        }
-    }
-
-    system = {
-        id = "1438"
-        position = {
-            x = -17.01339
-            y = 419.6348
-        }
-    }
+    
 
     system = {
         id = "1439"
@@ -11349,21 +7944,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1443"
-        position = {
-            x = -40.71063
-            y = 442.7236
-        }
-    }
-
-    system = {
-        id = "1444"
-        position = {
-            x = -23.0896
-            y = 439.6855
-        }
-    }
+  
 
     system = {
         id = "1445"
@@ -11397,29 +7978,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1449"
-        position = {
-            x = 82.02893
-            y = 381.3546
-        }
-    }
-
-    system = {
-        id = "1450"
-        position = {
-            x = 89.92801
-            y = 372.8476
-        }
-    }
-
-    system = {
-        id = "1451"
-        position = {
-            x = 94.18135
-            y = 355.2266
-        }
-    }
+  
 
     system = {
         id = "1452"
@@ -11501,21 +8060,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1462"
-        position = {
-            x = 122.132
-            y = 362.5181
-        }
-    }
-
-    system = {
-        id = "1463"
-        position = {
-            x = 133.6768
-            y = 371.6322
-        }
-    }
 
     system = {
         id = "1464"
@@ -11549,21 +8093,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1468"
-        position = {
-            x = 145.2216
-            y = 425.1025
-        }
-    }
-
-    system = {
-        id = "1469"
-        position = {
-            x = 173.7798
-            y = 358.8717
-        }
-    }
+  
 
     system = {
         id = "1470"
@@ -11597,21 +8127,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1474"
-        position = {
-            x = 3.645741
-            y = 383.176
-        }
-    }
-
-    system = {
-        id = "1475"
-        position = {
-            x = 20.05152
-            y = 372.2405
-        }
-    }
 
     system = {
         id = "1476"
@@ -11645,22 +8160,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1480"
-        position = {
-            x = -58.93931
-            y = 199.0678
-        }
-    }
-
-    system = {
-        id = "1481"
-        position = {
-            x = -43.92574
-            y = 202.7674
-        }
-    }
-
+   
     system = {
         id = "1482"
         position = {
@@ -11701,21 +8201,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1487"
-        position = {
-            x = -24.62504
-            y = 238.0403
-        }
-    }
-
-    system = {
-        id = "1488"
-        position = {
-            x = -63.22644
-            y = 216.7433
-        }
-    }
+   
 
     system = {
         id = "1489"
@@ -11749,22 +8235,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1493"
-        position = {
-            x = -137.7671
-            y = 192.1183
-        }
-    }
-
-    system = {
-        id = "1494"
-        position = {
-            x = -147.0847
-            y = 191.452
-        }
-    }
-
+  
     system = {
         id = "1495"
         position = {
@@ -11797,21 +8268,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1499"
-        position = {
-            x = 35.27775
-            y = 93.99702
-        }
-    }
-
-    system = {
-        id = "1500"
-        position = {
-            x = 48.89374
-            y = 105.7557
-        }
-    }
 
     system = {
         id = "1501"
@@ -11845,21 +8301,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1505"
-        position = {
-            x = 105.8333
-            y = 291.429
-        }
-    }
-
-    system = {
-        id = "1506"
-        position = {
-            x = 108.3089
-            y = 282.1445
-        }
-    }
+    
 
     system = {
         id = "1507"
@@ -11901,21 +8343,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1512"
-        position = {
-            x = 66.84209
-            y = 298.2365
-        }
-    }
-
-    system = {
-        id = "1513"
-        position = {
-            x = 121.306
-            y = 311.8526
-        }
-    }
 
     system = {
         id = "1514"
@@ -11949,21 +8376,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1518"
-        position = {
-            x = 135.5409
-            y = 312.4716
-        }
-    }
-
-    system = {
-        id = "1519"
-        position = {
-            x = 206.7153
-            y = 204.1628
-        }
-    }
+   
 
     system = {
         id = "1520"
@@ -11997,21 +8410,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1524"
-        position = {
-            x = 151.48
-            y = 454.2284
-        }
-    }
-
-    system = {
-        id = "1525"
-        position = {
-            x = 161.3164
-            y = 443.4077
-        }
-    }
+  
 
     system = {
         id = "1526"
@@ -12045,21 +8444,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1530"
-        position = {
-            x = 280.1405
-            y = 91.35959
-        }
-    }
-
-    system = {
-        id = "1531"
-        position = {
-            x = -290.4303
-            y = -8.601858
-        }
-    }
+   
 
     system = {
         id = "1532"
@@ -12093,22 +8478,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1536"
-        position = {
-            x = -279.6919
-            y = -117.5177
-        }
-    }
-
-    system = {
-        id = "1537"
-        position = {
-            x = -266.6527
-            y = -146.6642
-        }
-    }
-
+   
     system = {
         id = "1538"
         position = {
@@ -12149,22 +8519,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1543"
-        position = {
-            x = -239.8072
-            y = -219.5304
-        }
-    }
-
-    system = {
-        id = "1544"
-        position = {
-            x = -260.5166
-            y = -231.0356
-        }
-    }
-
+  
     system = {
         id = "1545"
         position = {
@@ -12197,29 +8552,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1549"
-        position = {
-            x = -252.518
-            y = -264.1216
-        }
-    }
-
-    system = {
-        id = "1550"
-        position = {
-            x = -244.0808
-            y = -291.7344
-        }
-    }
-
-    system = {
-        id = "1551"
-        position = {
-            x = -264.0233
-            y = -286.3651
-        }
-    }
+  
 
     system = {
         id = "1552"
@@ -12234,22 +8567,6 @@ static_galaxy_scenario = {
         position = {
             x = -273.2274
             y = -289.4333
-        }
-    }
-
-    system = {
-        id = "1554"
-        position = {
-            x = -277.8294
-            y = -277.928
-        }
-    }
-
-    system = {
-        id = "1555"
-        position = {
-            x = -269.3923
-            y = -274.8601
         }
     }
 
@@ -12293,21 +8610,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1561"
-        position = {
-            x = -272.4605
-            y = -363.0667
-        }
-    }
-
-    system = {
-        id = "1562"
-        position = {
-            x = -291.6361
-            y = -343.1241
-        }
-    }
+   
 
     system = {
         id = "1563"
@@ -12341,21 +8644,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1567"
-        position = {
-            x = -261.7226
-            y = -313.9776
-        }
-    }
-
-    system = {
-        id = "1568"
-        position = {
-            x = -244.0808
-            y = -314.7448
-        }
-    }
 
     system = {
         id = "1569"
@@ -12389,22 +8677,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1573"
-        position = {
-            x = -287.0334
-            y = -269.4908
-        }
-    }
-
-    system = {
-        id = "1574"
-        position = {
-            x = -302.374
-            y = -246.4804
-        }
-    }
-
+  
     system = {
         id = "1575"
         position = {
@@ -12446,22 +8719,6 @@ static_galaxy_scenario = {
     }
 
     system = {
-        id = "1580"
-        position = {
-            x = -316.9469
-            y = -165.1769
-        }
-    }
-
-    system = {
-        id = "1581"
-        position = {
-            x = -335.3556
-            y = -148.3026
-        }
-    }
-
-    system = {
         id = "1582"
         position = {
             x = -337.6563
@@ -12493,29 +8750,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1586"
-        position = {
-            x = -361.434
-            y = -193.5565
-        }
-    }
-
-    system = {
-        id = "1587"
-        position = {
-            x = -395.9494
-            y = -205.0616
-        }
-    }
-
-    system = {
-        id = "1588"
-        position = {
-            x = -415.125
-            y = -216.567
-        }
-    }
+ 
 
     system = {
         id = "1589"
@@ -12597,21 +8832,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1599"
-        position = {
-            x = -394.4156
-            y = -169.7792
-        }
-    }
-
-    system = {
-        id = "1600"
-        position = {
-            x = -382.1434
-            y = -152.1377
-        }
-    }
+    
 
     system = {
         id = "1601"
@@ -12645,21 +8866,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1605"
-        position = {
-            x = -452.7087
-            y = -139.8655
-        }
-    }
-
-    system = {
-        id = "1606"
-        position = {
-            x = -453.475
-            y = -151.3708
-        }
-    }
+   
 
     system = {
         id = "1607"
@@ -12693,21 +8900,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1611"
-        position = {
-            x = -208.7985
-            y = -286.3651
-        }
-    }
-
-    system = {
-        id = "1612"
-        position = {
-            x = -175.8168
-            y = -304.0063
-        }
-    }
+    
 
     system = {
         id = "1613"
@@ -12741,22 +8934,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1617"
-        position = {
-            x = -191.1573
-            y = -222.7031
-        }
-    }
-
-    system = {
-        id = "1618"
-        position = {
-            x = -192.6911
-            y = -206.5957
-        }
-    }
-
+   
     system = {
         id = "1619"
         position = {
@@ -12797,21 +8975,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1624"
-        position = {
-            x = -171.2148
-            y = -237.2764
-        }
-    }
-
-    system = {
-        id = "1625"
-        position = {
-            x = -154.3405
-            y = -261.0537
-        }
-    }
+  
 
     system = {
         id = "1626"
@@ -12845,22 +9009,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1630"
-        position = {
-            x = -112.9217
-            y = -284.8313
-        }
-    }
-
-    system = {
-        id = "1631"
-        position = {
-            x = -293.9368
-            y = -44.75589
-        }
-    }
-
+  
     system = {
         id = "1632"
         position = {
@@ -12893,29 +9042,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1636"
-        position = {
-            x = -273.9943
-            y = 39.61524
-        }
-    }
-
-    system = {
-        id = "1637"
-        position = {
-            x = -254.0518
-            y = 47.28548
-        }
-    }
-
-    system = {
-        id = "1638"
-        position = {
-            x = -438.1351
-            y = 62.6258
-        }
-    }
+   
 
     system = {
         id = "1639"
@@ -12949,21 +9076,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1643"
-        position = {
-            x = -445.0385
-            y = -42.45517
-        }
-    }
-
-    system = {
-        id = "1644"
-        position = {
-            x = -449.6405
-            y = -20.21166
-        }
-    }
+  
 
     system = {
         id = "1645"
@@ -13005,22 +9118,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1650"
-        position = {
-            x = 283.766
-            y = -115.1181
-        }
-    }
-
-    system = {
-        id = "1651"
-        position = {
-            x = 241.5803
-            y = -161.9058
-        }
-    }
-
+  
     system = {
         id = "1652"
         position = {
@@ -13053,29 +9151,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1656"
-        position = {
-            x = 264.5907
-            y = -128.9242
-        }
-    }
-
-    system = {
-        id = "1657"
-        position = {
-            x = 239.2793
-            y = -135.0606
-        }
-    }
-
-    system = {
-        id = "1658"
-        position = {
-            x = 220.104
-            y = -151.9346
-        }
-    }
+   
 
     system = {
         id = "1659"
@@ -13093,21 +9169,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1661"
-        position = {
-            x = 190.9575
-            y = -167.2748
-        }
-    }
-
-    system = {
-        id = "1662"
-        position = {
-            x = 172.5492
-            y = -175.7119
-        }
-    }
+  
 
     system = {
         id = "1663"
@@ -13141,21 +9203,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1667"
-        position = {
-            x = 194.0255
-            y = -204.8588
-        }
-    }
-
-    system = {
-        id = "1668"
-        position = {
-            x = 171.7821
-            y = -197.1885
-        }
-    }
 
     system = {
         id = "1669"
@@ -13189,21 +9236,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1673"
-        position = {
-            x = 243.8814
-            y = -217.1307
-        }
-    }
-
-    system = {
-        id = "1674"
-        position = {
-            x = 258.4546
-            y = -213.2959
-        }
-    }
 
     system = {
         id = "1675"
@@ -13237,21 +9269,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1679"
-        position = {
-            x = 229.3081
-            y = -217.1307
-        }
-    }
-
-    system = {
-        id = "1680"
-        position = {
-            x = 207.8317
-            y = -156.5369
-        }
-    }
 
     system = {
         id = "1681"
@@ -13293,21 +9310,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1686"
-        position = {
-            x = 316.7476
-            y = -267.7536
-        }
-    }
-
-    system = {
-        id = "1687"
-        position = {
-            x = 300.6403
-            y = -278.492
-        }
-    }
+   
 
     system = {
         id = "1688"
@@ -13349,29 +9352,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1693"
-        position = {
-            x = 386.5457
-            y = -149.6336
-        }
-    }
-
-    system = {
-        id = "1694"
-        position = {
-            x = 366.6034
-            y = -174.9453
-        }
-    }
-
-    system = {
-        id = "1695"
-        position = {
-            x = 279.9474
-            y = 36.79662
-        }
-    }
+  
 
     system = {
         id = "1696"
@@ -13397,29 +9378,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1699"
-        position = {
-            x = -164.1686
-            y = 371.8699
-        }
-    }
-
-    system = {
-        id = "1700"
-        position = {
-            x = -309.9004
-            y = 274.4598
-        }
-    }
-
-    system = {
-        id = "1701"
-        position = {
-            x = -243.9376
-            y = 312.8102
-        }
-    }
+    
 
     system = {
         id = "1702"
@@ -13437,22 +9396,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1704"
-        position = {
-            x = -221.6944
-            y = 338.1215
-        }
-    }
-
-    system = {
-        id = "1705"
-        position = {
-            x = -143.4595
-            y = 413.2885
-        }
-    }
-
+   
     system = {
         id = "1706"
         position = {
@@ -13501,29 +9445,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "1712"
-        position = {
-            x = 286.0656
-            y = 50.49319
-        }
-    }
-
-    system = {
-        id = "1713"
-        position = {
-            x = 314.4449
-            y = 84.24159
-        }
-    }
-
-    system = {
-        id = "1714"
-        position = {
-            x = 331.3191
-            y = 110.3198
-        }
-    }
+    
 
     system = {
         id = "1715"
