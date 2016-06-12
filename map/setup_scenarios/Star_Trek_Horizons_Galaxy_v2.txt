@@ -26,13 +26,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "2"
-        position = {
-            x = -459
-            y = 291
-        }
-    }
+ 
 
     system = {
         id = "3"
@@ -42,13 +36,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "4"
-        position = {
-            x = -456
-            y = 2
-        }
-    }
 
     system = {
         id = "5"
@@ -58,14 +45,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "6"
-        position = {
-            x = -452
-            y = 61
-        }
-    }
-
+ 
     system = {
         id = "7"
         position = {
@@ -74,13 +54,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "8"
-        position = {
-            x = -451
-            y = 129
-        }
-    }
+ 
 
     system = {
         id = "9"
@@ -90,13 +64,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "10"
-        position = {
-            x = -450
-            y = 337
-        }
-    }
+   
 
     system = {
         id = "11"
@@ -106,13 +74,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "12"
-        position = {
-            x = -439
-            y = 152
-        }
-    }
+ 
 
     system = {
         name = "Collective Splinter #2"
@@ -125,13 +87,7 @@ static_galaxy_scenario = {
         spawn_weight = { base = 1 }
     }
 
-    system = {
-        id = "14"
-        position = {
-            x = -428
-            y = 33
-        }
-    }
+ 
 
     system = {
         id = "15"
@@ -141,13 +97,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "16"
-        position = {
-            x = -413
-            y = -185
-        }
-    }
+  
 
     system = {
         id = "17"
@@ -157,14 +107,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "18"
-        position = {
-            x = -407
-            y = -175
-        }
-    }
-
+  
     system = {
         id = "19"
         position = {
@@ -173,13 +116,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "20"
-        position = {
-            x = -393
-            y = 167
-        }
-    }
+   
 
     system = {
         id = "21"
@@ -189,61 +126,10 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "22"
-        position = {
-            x = -383
-            y = -183
-        }
-    }
+ 
 
-    system = {
-        id = "23"
-        position = {
-            x = -381
-            y = -83
-        }
-    }
 
-    system = {
-        id = "24"
-        position = {
-            x = -380
-            y = 388
-        }
-    }
-
-    system = {
-        id = "25"
-        position = {
-            x = -378
-            y = -326
-        }
-    }
-
-    system = {
-        id = "26"
-        position = {
-            x = -378
-            y = -25
-        }
-    }
-
-    system = {
-        id = "27"
-        position = {
-            x = -378
-            y = 191
-        }
-    }
-
-    system = {
-        id = "28"
-        position = {
-            x = -377
-            y = -181
-        }
-    }
+   
 
     system = {
         id = "29"
@@ -293,21 +179,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "35"
-        position = {
-            x = -368
-            y = -88
-        }
-    }
-
-    system = {
-        id = "36"
-        position = {
-            x = -368
-            y = -77
-        }
-    }
+    
 
     system = {
         id = "37"
@@ -408,21 +280,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "49"
-        position = {
-            x = -359
-            y = 380
-        }
-    }
-
-    system = {
-        id = "50"
-        position = {
-            x = -358
-            y = 170
-        }
-    }
 
     system = {
         id = "51"
@@ -472,22 +329,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "57"
-        position = {
-            x = -354
-            y = 392
-        }
-    }
-
-    system = {
-        id = "58"
-        position = {
-            x = -353
-            y = -168
-        }
-    }
-
+  
     system = {
         id = "59"
         position = {
@@ -579,30 +421,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "70"
-        position = {
-            x = -343
-            y = -450
-        }
-    }
-
-    system = {
-        id = "71"
-        position = {
-            x = -340
-            y = -78
-        }
-    }
-
-    system = {
-        id = "72"
-        position = {
-            x = -339
-            y = 245
-        }
-    }
-
+   
     system = {
         id = "73"
         position = {
@@ -699,29 +518,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "85"
-        position = {
-            x = -316
-            y = -462
-        }
-    }
-
-    system = {
-        id = "86"
-        position = {
-            x = -316
-            y = 37
-        }
-    }
-
-    system = {
-        id = "87"
-        position = {
-            x = -313
-            y = 72
-        }
-    }
+    
 
     system = {
         id = "88"
@@ -833,21 +630,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "101"
-        position = {
-            x = -278
-            y = -37
-        }
-    }
-
-    system = {
-        id = "102"
-        position = {
-            x = -278
-            y = -11
-        }
-    }
+   
 
     system = {
         id = "103"
@@ -897,22 +680,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "109"
-        position = {
-            x = -272
-            y = -38
-        }
-    }
-
-    system = {
-        id = "110"
-        position = {
-            x = -272
-            y = -9
-        }
-    }
-
+    
     system = {
         id = "111"
         position = {
@@ -972,21 +740,7 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "118"
-        position = {
-            x = -264
-            y = 111
-        }
-    }
 
-    system = {
-        id = "119"
-        position = {
-            x = -262
-            y = -55
-        }
-    }
 
     system = {
         id = "120"
@@ -1025,22 +779,6 @@ static_galaxy_scenario = {
         position = {
             x = -260
             y = -59
-        }
-    }
-
-    system = {
-        id = "125"
-        position = {
-            x = -259
-            y = -129
-        }
-    }
-
-    system = {
-        id = "126"
-        position = {
-            x = -258
-            y = 4
         }
     }
 
@@ -1084,29 +822,6 @@ static_galaxy_scenario = {
         }
     }
 
-    system = {
-        id = "132"
-        position = {
-            x = -250
-            y = 479
-        }
-    }
-
-    system = {
-        id = "133"
-        position = {
-            x = -248
-            y = 4
-        }
-    }
-
-    system = {
-        id = "134"
-        position = {
-            x = -247
-            y = -242
-        }
-    }
 
     system = {
         id = "135"
@@ -14194,6 +13909,14 @@ static_galaxy_scenario = {
         position = {
             x = -21
             y = 345
+        }
+        initializer = human_homeworld
+        spawn_weight = {
+        base = 0
+        modifier = {
+             add = 100000
+             has_country_flag = human_empire
+            }
         }
         
     }

@@ -4,7 +4,7 @@
 
 
 ### Sol - Human start
-earth_homeworld = {
+human_homeworld = {
 	name = "Sol"
 	
 	class = "sc_g"
