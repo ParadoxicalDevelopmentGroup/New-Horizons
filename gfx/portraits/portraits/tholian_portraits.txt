@@ -1,0 +1,12 @@
+portraits = {
+
+	# Arthropoid
+	
+	tholian = {	entity = "portrait_tholian_01_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings" 
+			character_textures = {
+					"gfx/models/portraits/tholian/tholian_01.dds"
+					"gfx/models/portraits/tholian/tholian_02.dds"
+					"gfx/models/portraits/tholian/tholian_03.dds"
+			}
+	}	
+}

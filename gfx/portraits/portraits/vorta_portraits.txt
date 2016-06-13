@@ -1,0 +1,149 @@
+portraits = {
+	# vorta
+	vorta_female_01 = {	
+		entity = "portrait_vorta_female_01_entity"	clothes_selector = "mammalian_vorta_female_clothes_01" 	hair_selector = "vorta_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/vorta/vorta_female_body_04.dds"
+		}
+	}
+	vorta_female_02 = {	
+		entity = "portrait_vorta_female_01_entity"	clothes_selector = "mammalian_vorta_female_clothes_01" 	hair_selector = "vorta_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/vorta/vorta_female_body_01.dds"
+		}
+	}
+	vorta_female_03 = {	
+		entity = "portrait_vorta_female_02_entity"	clothes_selector = "mammalian_vorta_female_clothes_01" 	hair_selector = "vorta_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/vorta/vorta_female_body_02.dds"
+		}
+	}
+	vorta_female_04 = {	
+		entity = "portrait_vorta_female_01_entity"	clothes_selector = "mammalian_vorta_female_clothes_01" 	hair_selector = "vorta_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/vorta/vorta_female_body_03.dds"
+		}
+	}
+	vorta_male_01 = {	
+		entity = "portrait_vorta_male_01_entity"	clothes_selector = "mammalian_vorta_male_clothes_01" 	hair_selector = "vorta_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/vorta/vorta_male_body_01.dds"
+		}
+	}
+	vorta_male_02 = {	
+		entity = "portrait_vorta_male_01_entity"	clothes_selector = "mammalian_vorta_male_clothes_01" 	hair_selector = "vorta_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/vorta/vorta_male_body_02.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	vorta = {
+		default = vorta_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					vorta_male_01
+					vorta_male_02
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					vorta_female_01
+					vorta_female_02
+					vorta_female_03
+					vorta_female_04
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					vorta_female_01
+					vorta_female_02
+					vorta_female_03
+					vorta_female_04
+					vorta_male_01
+					vorta_male_02
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					vorta_female_01
+					vorta_female_02
+					vorta_female_03
+					vorta_female_04
+					vorta_male_01
+					vorta_male_02
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					vorta_female_01
+					vorta_female_02
+					vorta_female_03
+					vorta_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					vorta_male_01
+					vorta_male_02
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					vorta_female_01
+					vorta_female_02
+					vorta_female_03
+					vorta_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					vorta_male_01
+					vorta_male_02
+				}
+			}
+		}
+	}	
+}
