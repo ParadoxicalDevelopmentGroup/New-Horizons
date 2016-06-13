@@ -1,0 +1,35 @@
+# This is a template which multiple species can use. 
+
+human_male_clothes_starfleet_first_contact = {
+	default = "gfx/models/portraits/starfleet_first_contact/human_male_command.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/starfleet_first_contact/human_male_command.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/starfleet_first_contact/human_male_clothes_governer.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/starfleet_first_contact/human_male_clothes_governer.dds"
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/starfleet_first_contact/human_male_science.dds" = { leader_class = scientist }
+		"gfx/models/portraits/starfleet_first_contact/human_male_security.dds" = { leader_class = general }
+		"gfx/models/portraits/starfleet_first_contact/human_male_command.dds" = { leader_class = admiral }
+		"gfx/models/portraits/starfleet_first_contact/human_male_command.dds" = { leader_class = governor }
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/starfleet_first_contact/human_male_command.dds"		
+	}
+}
+
+human_male_hair_1 = { 
+	default = "gfx/models/portraits/human/human_male_hair_blonde_style_03_and_beard_light_style_01.dds"
+}

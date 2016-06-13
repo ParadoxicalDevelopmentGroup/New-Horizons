@@ -1,0 +1,120 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+portraits = {
+
+	# Voth
+	voth_male_01 = {	entity = "portrait_voth_male_01_entity"	clothes_selector = "reptilian_voth_male_clothes_01" hair_selector = "voth_head_attach_01"  greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/voth/voth_male_body_01.dds"
+			"gfx/models/portraits/voth/voth_male_body_02.dds"
+			"gfx/models/portraits/voth/voth_male_body_03.dds"
+		}
+	}
+	# Voth
+	voth_female_01 = {	entity = "portrait_voth_male_01_entity"	clothes_selector = "reptilian_voth_male_clothes_01" hair_selector = "voth_head_attach_01"  greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/voth/voth_male_body_01.dds"
+			"gfx/models/portraits/voth/voth_male_body_02.dds"
+			"gfx/models/portraits/voth/voth_male_body_03.dds"
+		}
+	}
+
+}
+
+portrait_groups = {
+			
+	voth = {
+		default = voth_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					voth_male_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					voth_female_01
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					voth_female_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					voth_male_01
+					voth_female_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					voth_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					voth_male_01
+				}
+			}
+		}
+		
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					voth_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					voth_male_01
+				}
+			}
+		}
+	}		
+}

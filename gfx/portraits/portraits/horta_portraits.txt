@@ -1,0 +1,16 @@
+portraits = {
+
+	# Silicoid
+	
+	horta = {	entity = "portrait_horta_01_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings" 
+			character_textures = {
+					"gfx/models/portraits/horta/horta_01.dds"
+					"gfx/models/portraits/horta/horta_02.dds"
+					"gfx/models/portraits/horta/horta_03.dds"
+					"gfx/models/portraits/horta/horta_04.dds"
+					"gfx/models/portraits/horta/horta_05.dds"
+					"gfx/models/portraits/horta/horta_06.dds"
+					"gfx/models/portraits/horta/horta_07.dds"
+			}
+	}	
+}

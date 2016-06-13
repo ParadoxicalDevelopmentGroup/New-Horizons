@@ -28,13 +28,13 @@ mammalian_vulcan_female_clothes_01 = {
 	ruler = { #for rulers
 		default = "gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds"
 		
-		"gfx/models/portraits/human/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = military_dictatorship } }
-		"gfx/models/portraits/human/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = martial_empire } }
-		"gfx/models/portraits/human/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = military_junta } }
-		"gfx/models/portraits/human/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = ordered_stratocracy } }
-		"gfx/models/portraits/human/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = military_republic } }
-		"gfx/models/portraits/human/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = martial_demarchy } }
-		"gfx/models/portraits/human/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = pirate_codex } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = military_dictatorship } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = martial_empire } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = military_junta } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = ordered_stratocracy } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = military_republic } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = martial_demarchy } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_enterprise_red.dds" = { owner = { has_government = pirate_codex } }
 
 		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = divine_mandate } }
 		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = transcendent_empire } }
@@ -82,31 +82,31 @@ mammalian_vulcan_female_clothes_01 = {
 		"gfx/models/portraits/vulcan/vulcan_female_clothes_enterprise_blue.dds" = { owner = { has_government = stagnated_ascendancy } }
 		
 	
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = divine_mandate } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = transcendent_empire } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = theocratic_oligarchy } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = theocratic_republic } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = irenic_monarchy } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = despotic_empire } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = star_empire } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = transcendent_republic } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = direct_democracy } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = moral_democracy } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = irenic_democracy } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = indirect_democracy } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = democratic_utopia } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = stagnated_ascendancy } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = divine_mandate } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = transcendent_empire } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = theocratic_oligarchy } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = theocratic_republic } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = irenic_monarchy } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = despotic_empire } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = star_empire } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = transcendent_republic } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = direct_democracy } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = moral_democracy } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = irenic_democracy } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = indirect_democracy } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = democratic_utopia } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = stagnated_ascendancy } }
 		
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = despotic_hegemony } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = enlightened_monarchy } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = transcendent_oligarchy } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = plutocratic_oligarchy } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = peaceful_bureaucracy } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = irenic_protectorate } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = mega_corporation } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = despotic_hegemony } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = enlightened_monarchy } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = transcendent_oligarchy } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = plutocratic_oligarchy } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = peaceful_bureaucracy } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = irenic_protectorate } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = mega_corporation } }
 	
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = primitive_feudalism } }
-		"gfx/models/portraits/human/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = fragmented_nations } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = primitive_feudalism } }
+		"gfx/models/portraits/vulcan/vulcan_female_clothes_tos_ambassador.dds" = { owner = { has_government = fragmented_nations } }
 		
 		"gfx/models/portraits/vulcan/vulcan_female_clothes_enterprise_blue.dds" = { owner = { has_government = science_directorate } }
 		"gfx/models/portraits/vulcan/vulcan_female_clothes_enterprise_blue.dds" = { owner = { has_government = illuminated_technocracy } }
@@ -116,11 +116,11 @@ mammalian_vulcan_female_clothes_01 = {
 }
 
 vulcan_female_hair_1 = { 
-	default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+	default = "gfx/models/portraits/vulcan/vulcan_female_hair_black_style_01.dds"
 	
 	ruler = {
-	default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+	default = "gfx/models/portraits/vulcan/vulcan_female_hair_black_style_01.dds"
 	
-		"gfx/models/portraits/human/human_female_hair_black_style_01.dds" = { owner = { has_government = military_dictatorship } }
+		"gfx/models/portraits/vulcan/vulcan_female_hair_black_style_01.dds" = { owner = { has_government = military_dictatorship } }
 	}
 }
