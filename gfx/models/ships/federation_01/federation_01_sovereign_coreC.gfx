@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "federation_01_sovereign_coreC_mesh"
+		file = "gfx/models/ships/federation_01/federation_01_sovereign_coreC.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			#name = "F_Defiant_BACK:D_Object_1Shape"
+			index = 0
+			texture_diffuse = "federation_01_sovereign_coreC_diffuse.dds"
+			texture_normal = "federation_01_sovereign_coreC_normal.dds"
+			texture_specular = "federation_01_sovereign_coreC_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

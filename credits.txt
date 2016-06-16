@@ -1,0 +1,66 @@
+
+ENT era Challenger class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+Specular, metal, gloss, emissive and normal maps by: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+             
+ENT era NX-01 class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+Specular, metal, gloss, emissive and normal maps by: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Poseidon class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+Specular, metal, gloss, emissive and normal maps by: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Klingon Stinger class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+Specular, metal, gloss, emissive and normal maps by: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Klingon Raptor class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+Specular, metal, gloss, emissive and normal maps by: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Klingon Ktinga class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+Specular, metal, gloss, emissive and normal maps by: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+
+
+Permissions:
+=======================
+Content from this patch must not be used in any other mod without permissions from the original authors.
+
+Primary contacts are Grinsel and Shaggo.
+
+Obviously if you wish to use something from this mod that is authored by someone outside the ST:New Horizons Team you also need the original author's permission. 
+
+http://steamcommunity.com/sharedfiles/filedetails/?id=688086068
+http://www.moddb.com/mods/star-trek-new-horizon
+
+
+Enjoy..
+
+The Star Trek New Horizons Mod Team

@@ -1,0 +1,9 @@
+objectTypes = {
+	pdxmesh = {
+		name = "klingon_01_saber_frame_mesh"
+		file = "gfx/models/ships/klingon_01/klingon_01_saber_frame.mesh"
+		scale = 1.0
+
+
+	}
+}

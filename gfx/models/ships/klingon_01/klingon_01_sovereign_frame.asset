@@ -1,0 +1,4 @@
+entity = {
+	name = "klingon_01_sovereign_entity"
+	pdxmesh = "klingon_01_sovereign_frame_mesh"
+}

@@ -1,0 +1,160 @@
+ship_section_template = {
+	key = "SOVEREIGN_COREA"
+	ship_size = sovereign
+	fits_on_slot = mid
+	entity = "sovereign_coreA_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	# Guns
+	weapon_preferences = { weapon_type_energy }
+	ai_weight = {
+		modifier = {
+			factor = 2.0
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = hive_mind
+			}
+		}
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+		component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 3
+	large_utility_slots = 2	
+	cost = 120
+}	
+ship_section_template = {
+	key = "SOVEREIGN_COREB"
+	ship_size = sovereign
+	fits_on_slot = mid
+	entity = "sovereign_coreB_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	# Guns
+	weapon_preferences = { weapon_type_kinetic }
+	ai_weight = {
+		modifier = {
+			factor = 2.0
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = hive_mind
+			}
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	
+		component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+			component_slot = {
+		name = "MEDIUM_GUN_02"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+	
+	small_utility_slots = 2
+	medium_utility_slots = 3
+	large_utility_slots = 1	
+	cost = 120
+}	
+ship_section_template = {
+	key = "SOVEREIGN_COREC"
+	ship_size = sovereign
+	fits_on_slot = mid
+	entity = "sovereign_coreC_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	# Guns
+	weapon_preferences = { weapon_type_energy }
+	ai_weight = {
+		modifier = {
+			factor = 2.0
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = hive_mind
+			}
+		}
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	
+		component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+			component_slot = {
+		name = "MEDIUM_GUN_02"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+			component_slot = {
+		name = "MEDIUM_GUN_03"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_03"
+	}
+
+	
+	small_utility_slots = 2
+	medium_utility_slots = 4
+	
+	cost = 120
+}	

@@ -1,0 +1,20 @@
+﻿
+#Star Trek New Horizons Development Team
+--------
+
+Shaggo
+Grinsel
+Swizzle
+Walshicus
+
+--------
+
+Thanks to Paradox Development Group who have made this journey possible.
+
+Special credits go to the Star Trek: Continuum Modding team for using their
+base models.
+
+We would also like to credit moonraker, and DJCurtis for some of the federation ships.
+
+
+To boldly go...

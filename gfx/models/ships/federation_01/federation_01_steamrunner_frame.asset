@@ -1,0 +1,4 @@
+entity = {
+	name = "federation_01_steamrunner_entity"
+	pdxmesh = "federation_01_steamrunner_frame_mesh"
+}

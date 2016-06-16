@@ -1,0 +1,9 @@
+objectTypes = {
+	pdxmesh = {
+		name = "federation_01_saber_frame_mesh"
+		file = "gfx/models/ships/federation_01/federation_01_saber_frame.mesh"
+		scale = 1.0
+
+
+	}
+}

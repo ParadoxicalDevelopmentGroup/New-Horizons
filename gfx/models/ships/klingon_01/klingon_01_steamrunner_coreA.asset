@@ -1,0 +1,4 @@
+entity = {
+	name = "klingon_01_steamrunner_coreA_entity"
+	pdxmesh = "klingon_01_steamrunner_coreA_mesh"
+}

@@ -1,0 +1,49 @@
+# This is a template which multiple species can use. 
+
+human_female_clothes_starfleet_wrath_of_khan = {
+	default = "gfx/models/portraits/starfleet_wrath_of_khan/human_female_command.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/starfleet_wrath_of_khan/human_female_command.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/starfleet_wrath_of_khan/human_female_clothes_governer.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/starfleet_wrath_of_khan/human_female_clothes_governer.dds"
+	}
+	#leader scope	
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/starfleet_wrath_of_khan/human_female_science.dds" = { 
+			leader_class = scientist 
+			NOT = { 
+				has_trait = leader_trait_expertise_biology
+			}
+		}
+		"gfx/models/portraits/starfleet_wrath_of_khan/human_female_medical.dds" = { 
+			leader_class = scientist 
+			has_trait = leader_trait_expertise_biology
+		}
+		"gfx/models/portraits/starfleet_wrath_of_khan/human_female_security.dds" = { leader_class = general }
+		"gfx/models/portraits/starfleet_wrath_of_khan/human_female_command.dds" = { leader_class = admiral }
+		"gfx/models/portraits/starfleet_wrath_of_khan/human_female_command.dds" = { leader_class = governor }
+	}
+	
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/starfleet_wrath_of_khan/human_female_command.dds"
+	}
+}
+
+human_female_hair_1 = { 
+	default = "gfx/models/portraits/human/human_female_hair_red_style_01.dds"
+	ruler = {
+	default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+		"gfx/models/portraits/human/human_female_hair_black_style_01.dds" = { owner = { has_government = military_dictatorship } }
+	}
+}

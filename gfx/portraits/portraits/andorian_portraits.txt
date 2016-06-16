@@ -24,12 +24,6 @@ portraits = {
 			"gfx/models/portraits/andorian/andorian_female_body_04.dds"
 		}
 	}
-	andorian_female_05 = {	
-		entity = "portrait_andorian_female_04_entity"	clothes_selector = "mammalian_human_female_clothes_01" 	hair_selector = "andorian_female_hair_01"	greeting_sound = "human_female_greetings_01"
-		character_textures = {
-			"gfx/models/portraits/andorian/andorian_female_body_05.dds"
-		}
-	}
 	andorian_male_01 = {	
 		entity = "portrait_andorian_male_01_entity"	clothes_selector = "mammalian_human_male_clothes_01" 	hair_selector = "andorian_male_hair_01"		greeting_sound = "human_male_greetings_03" 
 		character_textures = {
@@ -52,12 +46,6 @@ portraits = {
 		entity = "portrait_andorian_male_04_entity"	clothes_selector = "mammalian_human_male_clothes_01" 	hair_selector = "andorian_male_hair_01"		greeting_sound = "human_male_greetings_01" 
 		character_textures = {
 			"gfx/models/portraits/andorian/andorian_male_body_04.dds"
-		}
-	}
-	andorian_male_05 = {	
-		entity = "portrait_andorian_male_05_entity"	clothes_selector = "mammalian_human_male_clothes_01" 	hair_selector = "andorian_male_hair_01"		greeting_sound = "human_male_greetings_01" 
-		character_textures = {
-			"gfx/models/portraits/andorian/andorian_male_body_05.dds"
 		}
 	}
 }
