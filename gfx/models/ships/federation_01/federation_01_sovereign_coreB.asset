@@ -1,0 +1,4 @@
+entity = {
+	name = "federation_01_sovereign_coreB_entity"
+	pdxmesh = "federation_01_sovereign_coreB_mesh"
+}

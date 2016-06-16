@@ -1,0 +1,23 @@
+﻿l_english:
+
+ ####################################
+ # Species Classes
+ ####################################
+ 
+ SIL:0 "Silicoid"
+ SIL_desc:1 "Species Class has no effect on your Empire, but Silicoid-class Species may consider other Silicoid to be less alien than other Species Classes."
+ SIL_plural:0 "Silicoids"
+ SIL_insult_01:0 "rock"
+ SIL_insult_plural_01:0 "rocks"
+ SIL_compliment_01:0 "sphinx"
+ SIL_compliment_plural_01:0 "sphinxes"
+ SIL_spawn:0 "pebble"
+ SIL_spawn_plural:0 "pebbles"
+ SIL_sound_01:0 "growling"
+ SIL_sound_02:0 "grunting"
+ SIL_sound_03:0 "yapping"
+ SIL_sound_04:0 "yowling"
+ SIL_sound_05:0 "mewling"
+ SIL_organ:0 "stomach"
+ SIL_mouth:0 "mouth"
+

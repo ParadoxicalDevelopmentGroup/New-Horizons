@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "klingon_01_sovereign_coreB_mesh"
+		file = "gfx/models/ships/klingon_01/klingon_01_sovereign_coreB.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			#name = "F_Defiant_BACK:D_Object_1Shape"
+			index = 0
+			texture_diffuse = "klingon_01_sovereign_coreB_diffuse.dds"
+			texture_normal = "klingon_01_sovereign_coreB_normal.dds"
+			texture_specular = "klingon_01_sovereign_coreB_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

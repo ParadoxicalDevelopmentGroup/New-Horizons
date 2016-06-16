@@ -1,0 +1,4 @@
+entity = {
+	name = "klingon_01_saber_entity"
+	pdxmesh = "klingon_01_saber_frame_mesh"
+}
