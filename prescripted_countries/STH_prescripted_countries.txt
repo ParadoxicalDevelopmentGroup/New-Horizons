@@ -3,7 +3,7 @@
 Klingon = {
 	name = "Klingon Empire"
        spawn_enabled = always # yes / no / always
-       name_list = "Human"
+       name_list = "Klingon"
        ship_prefix = "IKS"	
        species_name = "Klingon"
        species_plural = "Klingons"	
@@ -11,7 +11,7 @@ Klingon = {
        species_class = "KDF"
        trait = "trait_quick_learners"
        trait = "trait_nomadic"	
-       portrait = "human"
+       portrait = "klingon"
        adjective = "Klingon"
        government = "indirect_democracy"
        ethic = "ethic_xenophile"
@@ -41,12 +41,6 @@ Klingon = {
                        "null"
                }
        }
-       #leader = {
-       #	name = "Dolores Muwanga"
-       #	class = ruler
-       #	portrait = "human_female_05"
-       #	experience = 1200.0
-       #}	
        ruler = {
                name = "Duras"
                gender = male
