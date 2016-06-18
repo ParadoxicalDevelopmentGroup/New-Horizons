@@ -1,0 +1,35 @@
+# This is a template which multiple species can use. 
+
+cardassian_male_clothes_01 = {
+	default = "gfx/models/portraits/cardassian/cardassian_male_clothes_command.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/cardassian/cardassian_male_clothes_command.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/cardassian/cardassian_male_clothes_command.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		default =  "gfx/models/portraits/cardassian/cardassian_male_clothes_command.dds"
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/cardassian/cardassian_male_clothes_command.dds" = { leader_class = admiral }
+		"gfx/models/portraits/cardassian/cardassian_male_clothes_command.dds" = { leader_class = scientist }
+		"gfx/models/portraits/cardassian/cardassian_male_clothes_command.dds" = { leader_class = general }
+		"gfx/models/portraits/cardassian/cardassian_male_clothes_command.dds" = { leader_class = governor }
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/cardassian/cardassian_male_clothes_command.dds"
+	}
+}
+
+cardassian_male_hair_1 = { 
+	default = "gfx/models/portraits/cardassian/cardassian_male_hair_black_style_01.dds"
+}
