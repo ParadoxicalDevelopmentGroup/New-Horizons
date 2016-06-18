@@ -1,0 +1,441 @@
+#KDF
+"Klingon Empire"
+={
+	name_list="Klingon"
+	ship_prefix="IKS"
+	species_name="Klingon"
+	species_plural="Klingons"
+	species_class="MAM"
+	species_adjective="Klingon"
+	species_bio=""
+	portrait="klingon"
+	name="Klingon Empire"
+	adjective="Klingon"
+	government="military_dictatorship"
+	flags={ klingon_empire }
+	ftl=warp
+	weapon="tech_lasers_1"
+	planet_name="Qo'Nos"
+	planet_class="pc_continental"
+	system_name="Qo'Nos"
+	initializer=""
+	graphical_culture="klingon_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="trek"
+			file="Klingon.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"customcolor1301"
+			"customcolor2001"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Duras"
+		portrait="klingon_male_01"
+		texture=0
+		hair=1
+		clothes=0
+		ruler_title="Chancellor"
+	}
+	spawn_enabled=always
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_spiritualist"
+	trait="trait_strong"
+	trait="trait_resilient"
+	trait="trait_slow_learners"
+	trait="trait_enduring"
+}
+
+#Earth
+"United Earth"
+={
+	name_list="Human"
+	ship_prefix="USS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="MAM"
+	species_adjective="Human"
+	species_bio=""
+	portrait="human"
+	name="United Earth"
+	adjective="Human"
+	government="indirect_democracy"
+	flags={
+human_empire	}
+	ftl=warp
+	weapon="tech_lasers_1"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="human_homeworld"
+	graphical_culture="federation_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Nathan Samuels"
+		portrait="human_male_04"
+		texture=0
+		hair=41
+		clothes=14
+	}
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_individualist"
+	trait="trait_quick_learners"
+	trait="trait_nomadic"
+	trait="trait_slow_breeders"
+	trait="trait_natural_engineers"
+}
+
+#Breen Confederacy
+"Breen Confederacy"
+={
+	name_list="Human"
+	ship_prefix=""
+	species_name="Breen"
+	species_plural="Breen"
+	species_class="MAM"
+	species_adjective="Breen"
+	species_bio=""
+	portrait="breen"
+	name="Breen Confederacy"
+	adjective="Breen"
+	government="military_junta"
+	ftl=warp
+	weapon="tech_missiles_1"
+	planet_name="Breen"
+	planet_class="pc_continental"
+	system_name="Breen"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name=""
+		portrait="breen_01"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+}
+
+#Bolian League
+"Bolian League"
+={
+	name_list="MAM3"
+	ship_prefix="BLS"
+	species_name="Bolian"
+	species_plural="Bolian"
+	species_class="MAM"
+	species_adjective="Bolian"
+	species_bio="The Bolians are a humanoid species native to the planet Bolias. Bolians are known forfor a bifurcating cartilaginous ridge running vertically along the centre of the head and face. Skin colour ranges from light green-blue to blue-gray and is occasionally accented with dark blue bands on the head. Bolian individuals tend to be high highly outspoken."
+	portrait="bolian"
+	name="Bolian League"
+	adjective="Bolian"
+	government="indirect_democracy"
+	ftl=warp
+	weapon="tech_lasers_1"
+	planet_name="Bolias"
+	planet_class="pc_ocean"
+	system_name="Bolarus"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_17.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"indigo"
+			"burgundy"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Haruna Harada"
+		portrait="bolian_female_01"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_materialist"
+}
+
+#Ferengi
+"Ferengi Alliance"
+={
+	name_list="REP2"
+	ship_prefix=""
+	species_name="Ferengi"
+	species_plural="Ferengi"
+	species_class="MAM"
+	species_adjective="Ferengi"
+	species_bio=""
+	portrait="ferengi"
+	name="Ferengi Alliance"
+	adjective="Ferengi"
+	government="plutocratic_oligarchy"
+	ftl=warp
+	weapon="tech_missiles_1"
+	planet_name="Ferenginar"
+	planet_class="pc_tropical"
+	system_name="Ferenginar"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="trek"
+			file="Ferengi.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"customcolor1716"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Sekwel"
+		portrait="ferengi_male_01"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Grand Nagus"
+		ruler_title_female="Grand Nagus"
+	}
+	spawn_enabled=yes
+	ethic="ethic_individualist"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_thrifty"
+	trait="trait_weak"
+	trait="trait_repugnant"
+	trait="trait_industrious"
+}
+
+#Cardassian
+"Cardassian Union"
+={
+	name_list="REP2"
+	ship_prefix=""
+	species_name="Cardassian"
+	species_plural="Cardassians"
+	species_class="MAM"
+	species_adjective="Cardassian"
+	species_bio=""
+	portrait="cardassian"
+	name="Cardassian Union"
+	adjective="Cardassian"
+	government="military_junta"
+	ftl=warp
+	weapon="tech_lasers_1"
+	planet_name="Cardassia Prime"
+	planet_class="pc_desert"
+	system_name="Cardassia"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="trek"
+			file="Cardassian2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"customcolor1758"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Dalket"
+		portrait="cardassian_male_01"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Legate"
+	}
+	spawn_enabled=yes
+	ethic="ethic_collectivist"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	trait="trait_communal"
+	trait="trait_decadent"
+	trait="trait_conformists"
+}
+
+#Vulcan
+"Vulcan High Command"
+={
+	name_list="AVI1"
+	ship_prefix=""
+	species_name="Vulcan"
+	species_plural="Vulcans"
+	species_class="MAM"
+	species_adjective="Vulcan"
+	species_bio=""
+	portrait="vulcan"
+	name="Vulcan High Command"
+	adjective="Vulcan"
+	government="peaceful_bureaucracy"
+	ftl=warp
+	weapon="tech_lasers_1"
+	planet_name="Vulcan"
+	planet_class="pc_arid"
+	system_name="Epsilon Eridani"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="trek"
+			file="Vulcan.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"customcolor1798"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Sorek"
+		portrait="vulcan_male_04"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Administrator"
+	}
+	spawn_enabled=yes
+	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_spiritualist"
+	trait="trait_intelligent"
+	trait="trait_slow_breeders"
+	trait="trait_strong"
+}
+
+#Andorian
+"Andorian Empire"
+={
+	name_list="Human"
+	ship_prefix="IGS"
+	species_name="Andorian"
+	species_plural="Andorians"
+	species_class="MAM"
+	species_adjective="Andorian"
+	species_bio=""
+	portrait="andorian"
+	name="Andorian Empire"
+	adjective="Andorian"
+	government="despotic_empire"
+	ftl=warp
+	weapon="tech_lasers_1"
+	planet_name="Andoria"
+	planet_class="pc_arctic"
+	system_name="Epsilon Indi"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"customcolor1085"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Varal"
+		portrait="andorian_female_01"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title="Emperor"
+		ruler_title_female="Empress"
+	}
+	spawn_enabled=yes
+	ethic="ethic_collectivist"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	trait="trait_talented"
+	trait="trait_quick_learners"
+	trait="trait_solitary"
+}

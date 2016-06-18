@@ -18,6 +18,7 @@ klingon_female_hair_01 = {
 		random = {
 			list = {
 				"gfx/models/portraits/klingon/klingon_female_hair_black_style_01.dds"
+				"gfx/models/portraits/klingon/klingon_female_hair_brown_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_female_hair_bald.dds"
 			}
 		}	
@@ -29,6 +30,7 @@ klingon_female_hair_01 = {
 			trigger = { leader_class = general }
 			list = {
 				"gfx/models/portraits/klingon/klingon_female_hair_black_style_01.dds"
+				"gfx/models/portraits/klingon/klingon_female_hair_brown_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_female_hair_bald.dds"
 			}
 		}		
@@ -37,6 +39,7 @@ klingon_female_hair_01 = {
 			trigger = { leader_class = admiral }
 			list = {
 				"gfx/models/portraits/klingon/klingon_female_hair_black_style_01.dds"
+				"gfx/models/portraits/klingon/klingon_female_hair_brown_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_female_hair_bald.dds"
 			}
 		}	
@@ -45,6 +48,7 @@ klingon_female_hair_01 = {
 			trigger = { leader_class = scientist }
 			list = {
 				"gfx/models/portraits/klingon/klingon_female_hair_black_style_01.dds"
+				"gfx/models/portraits/klingon/klingon_female_hair_brown_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_female_hair_bald.dds"
 			}
 		}		
@@ -52,6 +56,7 @@ klingon_female_hair_01 = {
 			trigger = { leader_class = governor }
 			list = {
 				"gfx/models/portraits/klingon/klingon_female_hair_black_style_01.dds"
+				"gfx/models/portraits/klingon/klingon_female_hair_brown_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_female_hair_bald.dds"
 			}
 		}
@@ -74,6 +79,7 @@ klingon_female_hair_01 = {
 			}
 			list = {
 				"gfx/models/portraits/klingon/klingon_female_hair_black_style_01.dds"
+				"gfx/models/portraits/klingon/klingon_female_hair_brown_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_female_hair_bald.dds"
 			}
 		}		
@@ -122,6 +128,7 @@ klingon_female_hair_01 = {
 			}
 			list = {
 				"gfx/models/portraits/klingon/klingon_female_hair_black_style_01.dds"
+				"gfx/models/portraits/klingon/klingon_female_hair_brown_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_female_hair_bald.dds"
 			}
 		}
