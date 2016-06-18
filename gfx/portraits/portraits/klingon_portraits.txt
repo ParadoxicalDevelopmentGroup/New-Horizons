@@ -12,6 +12,18 @@ portraits = {
 			"gfx/models/portraits/klingon/klingon_female_body_02.dds"
 		}
 	}
+	klingon_female_03 = {	
+		entity = "portrait_klingon_female_01_entity"	clothes_selector = "mammalian_klingon_female_clothes_01" 	hair_selector = "klingon_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/klingon/klingon_female_body_03.dds"
+		}
+	}
+	klingon_female_04 = {	
+		entity = "portrait_klingon_female_01_entity"	clothes_selector = "mammalian_klingon_female_clothes_01" 	hair_selector = "klingon_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/klingon/klingon_female_body_04.dds"
+		}
+	}
 	klingon_male_01 = {	
 		entity = "portrait_klingon_male_01_entity"	clothes_selector = "mammalian_klingon_male_clothes_01" 	hair_selector = "klingon_male_hair_01"		greeting_sound = "human_male_greetings_03" 
 		character_textures = {
@@ -22,6 +34,18 @@ portraits = {
 		entity = "portrait_klingon_male_01_entity"	clothes_selector = "mammalian_klingon_male_clothes_01" 	hair_selector = "klingon_male_hair_01"		greeting_sound = "human_male_greetings_03" 
 		character_textures = {
 			"gfx/models/portraits/klingon/klingon_male_body_02.dds"
+		}
+	}
+	klingon_male_03 = {	
+		entity = "portrait_klingon_male_01_entity"	clothes_selector = "mammalian_klingon_male_clothes_01" 	hair_selector = "klingon_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/klingon/klingon_male_body_03.dds"
+		}
+	}
+	klingon_male_04 = {	
+		entity = "portrait_klingon_male_01_entity"	clothes_selector = "mammalian_klingon_male_clothes_01" 	hair_selector = "klingon_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/klingon/klingon_male_body_04.dds"
 		}
 	}
 }
@@ -37,6 +61,8 @@ portrait_groups = {
 				portraits = {
 					klingon_male_01
 					klingon_male_02
+					klingon_male_03
+					klingon_male_04
 				}
 			}
 			add = {
@@ -46,6 +72,8 @@ portrait_groups = {
 				portraits = {
 					klingon_female_01
 					klingon_female_02
+					klingon_female_03
+					klingon_female_04
 				}
 			}
 			#set = {
@@ -61,8 +89,12 @@ portrait_groups = {
 				portraits = {
 					klingon_female_01
 					klingon_female_02
+					klingon_female_03
+					klingon_female_04
 					klingon_male_01
 					klingon_male_02
+					klingon_male_03
+					klingon_male_04
 				}
 			}
 		}		
@@ -73,8 +105,12 @@ portrait_groups = {
 				portraits = {
 					klingon_female_01
 					klingon_female_02
+					klingon_female_03
+					klingon_female_04
 					klingon_male_01
 					klingon_male_02
+					klingon_male_03
+					klingon_male_04
 				}
 			}
 		}
@@ -88,6 +124,8 @@ portrait_groups = {
 				portraits = {
 					klingon_female_01
 					klingon_female_02
+					klingon_female_03
+					klingon_female_04
 				}
 			}
 			add = {
@@ -97,6 +135,8 @@ portrait_groups = {
 				portraits = {
 					klingon_male_01
 					klingon_male_02
+					klingon_male_03
+					klingon_male_04
 				}
 			}
 		}
@@ -111,6 +151,8 @@ portrait_groups = {
 				portraits = {
 					klingon_female_01
 					klingon_female_02
+					klingon_female_03
+					klingon_female_04
 				}
 			}
 			add = {

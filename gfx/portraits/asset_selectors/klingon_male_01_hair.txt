@@ -35,10 +35,6 @@ klingon_male_hair_01 = {
 			list = {
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_black_style_03.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_01.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_03.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_bald.dds"
 			}
 		}		
@@ -48,10 +44,6 @@ klingon_male_hair_01 = {
 			list = {
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_black_style_03.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_01.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_03.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_bald.dds"
 			}
 		}	
@@ -61,10 +53,6 @@ klingon_male_hair_01 = {
 			list = {
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_black_style_03.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_01.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_03.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_bald.dds"
 			}
 		}		
@@ -74,10 +62,6 @@ klingon_male_hair_01 = {
 			list = {
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_black_style_03.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_01.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_03.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_bald.dds"
 			}
 		}
@@ -102,10 +86,6 @@ klingon_male_hair_01 = {
 			list = {
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_black_style_03.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_01.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_03.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_bald.dds"
 			}
 		}		
@@ -123,10 +103,6 @@ klingon_male_hair_01 = {
 			list = {
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_black_style_03.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_01.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_03.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_bald.dds"
 			}
 		}		
@@ -162,10 +138,6 @@ klingon_male_hair_01 = {
 			list = {
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_01.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_black_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_black_style_03.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_01.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_02.dds"
-				"gfx/models/portraits/klingon/klingon_male_hair_brown_style_03.dds"
 				"gfx/models/portraits/klingon/klingon_male_hair_bald.dds"
 			}
 		}
