@@ -6,17 +6,29 @@ portraits = {
 			"gfx/models/portraits/klingon/klingon_female_body_01.dds"
 		}
 	}
+	klingon_female_02 = {	
+		entity = "portrait_klingon_female_01_entity"	clothes_selector = "mammalian_klingon_female_clothes_01" 	hair_selector = "klingon_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/klingon/klingon_female_body_02.dds"
+		}
+	}
 	klingon_male_01 = {	
 		entity = "portrait_klingon_male_01_entity"	clothes_selector = "mammalian_klingon_male_clothes_01" 	hair_selector = "klingon_male_hair_01"		greeting_sound = "human_male_greetings_03" 
 		character_textures = {
 			"gfx/models/portraits/klingon/klingon_male_body_01.dds"
 		}
 	}
+	klingon_male_02 = {	
+		entity = "portrait_klingon_male_01_entity"	clothes_selector = "mammalian_klingon_male_clothes_01" 	hair_selector = "klingon_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/klingon/klingon_male_body_02.dds"
+		}
+	}
 }
 
 portrait_groups = {
 	klingon = {
-		default = klingon_female_01
+		default = klingon_male_01
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				trigger = {
@@ -24,6 +36,7 @@ portrait_groups = {
 				}
 				portraits = {
 					klingon_male_01
+					klingon_male_02
 				}
 			}
 			add = {
@@ -32,6 +45,7 @@ portrait_groups = {
 				}
 				portraits = {
 					klingon_female_01
+					klingon_female_02
 				}
 			}
 			#set = {
@@ -46,7 +60,9 @@ portrait_groups = {
 			add = {
 				portraits = {
 					klingon_female_01
+					klingon_female_02
 					klingon_male_01
+					klingon_male_02
 				}
 			}
 		}		
@@ -56,7 +72,9 @@ portrait_groups = {
 			add = {
 				portraits = {
 					klingon_female_01
+					klingon_female_02
 					klingon_male_01
+					klingon_male_02
 				}
 			}
 		}
@@ -69,6 +87,7 @@ portrait_groups = {
 				}
 				portraits = {
 					klingon_female_01
+					klingon_female_02
 				}
 			}
 			add = {
@@ -77,6 +96,7 @@ portrait_groups = {
 				}
 				portraits = {
 					klingon_male_01
+					klingon_male_02
 				}
 			}
 		}
@@ -90,6 +110,7 @@ portrait_groups = {
 				}
 				portraits = {
 					klingon_female_01
+					klingon_female_02
 				}
 			}
 			add = {
@@ -98,6 +119,7 @@ portrait_groups = {
 				}
 				portraits = {
 					klingon_male_01
+					klingon_male_02
 				}
 			}
 		}
