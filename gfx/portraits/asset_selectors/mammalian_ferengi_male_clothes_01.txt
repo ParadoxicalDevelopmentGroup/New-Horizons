@@ -1,10 +1,10 @@
 # This is a template which multiple species can use. 
 
 mammalian_ferengi_male_clothes_01 = {
-	default = "gfx/models/portraits/ferengi/ferengi_male_clothes_03.dds"
+	default = "gfx/models/portraits/ferengi/ferengi_male_clothes_01.dds"
 	
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
-		default = "gfx/models/portraits/ferengi/ferengi_male_clothes_03.dds"
+		default = "gfx/models/portraits/ferengi/ferengi_male_clothes_01.dds"
 	}
 	
 	#species scope
@@ -19,8 +19,8 @@ mammalian_ferengi_male_clothes_01 = {
 	#leader scope
 	leader = { #scientists, generals, admirals, governor
 		"gfx/models/portraits/ferengi/ferengi_male_clothes_01.dds" = { leader_class = admiral }
-		"gfx/models/portraits/ferengi/ferengi_male_clothes_02.dds" = { leader_class = scientist }
-		"gfx/models/portraits/ferengi/ferengi_male_clothes_01.dds" = { leader_class = general }
+		"gfx/models/portraits/ferengi/ferengi_male_clothes_03.dds" = { leader_class = scientist }
+		"gfx/models/portraits/ferengi/ferengi_male_clothes_02.dds" = { leader_class = general }
 		"gfx/models/portraits/ferengi/ferengi_male_clothes_03.dds" = { leader_class = governor }
 	}
 

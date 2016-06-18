@@ -1,10 +1,10 @@
 # This is a template which multiple species can use. 
 
 human_female_clothes_starfleet_first_contact = {
-	default = "gfx/models/portraits/starfleet_first_contact/human_female_command.dds"
+	default = "gfx/models/portraits/starfleet_first_contact/human_female_command_cp.dds"
 	
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
-		default = "gfx/models/portraits/starfleet_first_contact/human_female_command.dds"
+		default = "gfx/models/portraits/starfleet_first_contact/human_female_command_cp.dds"
 	}
 	
 	#species scope
@@ -18,15 +18,98 @@ human_female_clothes_starfleet_first_contact = {
 	}
 	#leader scope
 	leader = { #scientists, generals, admirals, governor
-		"gfx/models/portraits/starfleet_first_contact/human_female_science.dds" = { leader_class = scientist }
-		"gfx/models/portraits/starfleet_first_contact/human_female_security.dds" = { leader_class = general }
-		"gfx/models/portraits/starfleet_first_contact/human_female_command.dds" = { leader_class = admiral }
-		"gfx/models/portraits/starfleet_first_contact/human_female_command.dds" = { leader_class = governor }
+		#Scientist
+		"gfx/models/portraits/starfleet_first_contact/human_female_science_lt.dds" = { 
+			leader_class = scientist 
+			has_skill = 1
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_science_ltcm.dds" = { 
+			leader_class = scientist 
+			has_level = 2
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_science_cm.dds" = { 
+			leader_class = scientist 
+			has_level = 3
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_science_cp.dds" = { 
+			leader_class = scientist 
+			has_level = 4
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_science_ad.dds" = { 
+			leader_class = scientist 
+			has_level = 5
+		}
+
+		#General
+		"gfx/models/portraits/starfleet_first_contact/human_female_security_lt.dds" = { 
+			leader_class = general 
+			has_level = 1
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_security_ltcm.dds" = { 
+			leader_class = general 
+			has_level = 2
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_security_cm.dds" = { 
+			leader_class = general 
+			has_level = 3
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_security_cp.dds" = { 
+			leader_class = general 
+			has_level = 4
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_security_ad.dds" = { 
+			leader_class = general 
+			has_skill = 5
+		}
+		
+		#Admiral
+		"gfx/models/portraits/starfleet_first_contact/human_female_command_lt.dds" = { 
+			leader_class = admiral 
+			has_skill = 1
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_command_ltcm.dds" = { 
+			leader_class = admiral 
+			has_skill = 2
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_command_cm.dds" = { 
+			leader_class = admiral 
+			has_skill = 3
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_command_cp.dds" = { 
+			leader_class = admiral 
+			has_skill = 4
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_command_ad.dds" = { 
+			leader_class = admiral 
+			has_skill = 5
+		}
+		
+		#Governor
+		"gfx/models/portraits/starfleet_first_contact/human_female_command_lt.dds" = { 
+			leader_class = governor 
+			has_skill = 1
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_command_ltcm.dds" = { 
+			leader_class = governor 
+			has_skill = 2
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_command_cm.dds" = { 
+			leader_class = governor 
+			has_skill = 3
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_command_cp.dds" = { 
+			leader_class = governor 
+			has_skill = 4
+		}
+		"gfx/models/portraits/starfleet_first_contact/human_female_command_ad.dds" = { 
+			leader_class = governor 
+			has_skill = 5
+		}
 	}
 
 	#leader scope 
 	ruler = { #for rulers
-		default = "gfx/models/portraits/starfleet_first_contact/human_female_command.dds"
+		default = "gfx/models/portraits/starfleet_first_contact/human_female_command_ad.dds"
 	}
 }
 
