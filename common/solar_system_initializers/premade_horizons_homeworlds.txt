@@ -172,12 +172,11 @@ human_homeworld = {
 		
 		moon = {
 			name = "Luna"
-			class = "pc_barren_cold"
+			class = "pc_portal"
 			size = 7
 			orbit_distance = 7
 			orbit_angle = 0
 			has_ring = no
-			entity = "cold_barren_planet_luna_entity"
 		}
 	}
 	
