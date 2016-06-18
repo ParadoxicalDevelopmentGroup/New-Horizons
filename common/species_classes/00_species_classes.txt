@@ -4,6 +4,27 @@
 # can specify playable=no to disable people from picking specified class.
 # can specify randomized=no to filter specified class from randomization.
 
+MAM = {
+	playable = no
+}
+REP = {
+	playable = no
+}
+AVI = {
+	playable = no
+}
+ART = {
+	playable = no
+}
+MOL = {
+	playable = no
+}
+FUN = {
+	playable = no
+}
+MAM = {
+	playable = no
+}
 
 PRE_MAM = {
 
