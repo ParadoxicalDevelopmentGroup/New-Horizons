@@ -4,26 +4,63 @@
 # can specify playable=no to disable people from picking specified class.
 # can specify randomized=no to filter specified class from randomization.
 
+ALQ = {
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+BEQ = {
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+GAQ = {
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+DEL = {
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+FED = {
+	playable = no
+	graphical_culture = federation_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+KDF = {
+	playable = no
+	graphical_culture = klingon_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+
 MAM = {
 	playable = no
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
 }
 REP = {
 	playable = no
+	graphical_culture = reptilian_01
+	move_pop_sound_effect = "reptilian_pops_move"
 }
 AVI = {
 	playable = no
+	graphical_culture = avian_01
+	move_pop_sound_effect = "avian_pops_move"
 }
 ART = {
 	playable = no
+	graphical_culture = arthropoid_01
+	move_pop_sound_effect = "arthopoid_pops_move"
 }
 MOL = {
 	playable = no
+	graphical_culture = molluscoid_01
+	move_pop_sound_effect = "molluscoid_pops_move"
 }
 FUN = {
 	playable = no
-}
-MAM = {
-	playable = no
+	graphical_culture = fungoid_01
+	move_pop_sound_effect = "fungoid_pops_move"
 }
 
 PRE_MAM = {
