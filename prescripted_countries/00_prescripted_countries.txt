@@ -1,3 +1,59 @@
+#Earth
+"United Earth"
+={
+	name_list="Human"
+	ship_prefix="USS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="ALQ"
+	species_adjective="Human"
+	species_bio=""
+	portrait="human"
+	name="United Earth"
+	adjective="Human"
+	government="indirect_democracy"
+	flags={ human_empire	}
+	ftl=warp
+	weapon="tech_lasers_1"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="human_homeworld"
+	graphical_culture="federation_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Nathan Samuels"
+		portrait="human_male_04"
+		texture=0
+		hair=41
+		clothes=14
+	}
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_individualist"
+	trait="trait_quick_learners"
+	trait="trait_nomadic"
+	trait="trait_slow_breeders"
+	trait="trait_natural_engineers"
+}
+
 #KDF
 "Klingon Empire"
 ={
@@ -5,7 +61,7 @@
 	ship_prefix="IKS"
 	species_name="Klingon"
 	species_plural="Klingons"
-	species_class="MAM"
+	species_class="BEQ"
 	species_adjective="Klingon"
 	species_bio=""
 	portrait="klingon"
@@ -55,164 +111,62 @@
 	trait="trait_enduring"
 }
 
-#Earth
-"United Earth"
+#Romulan
+"Romulan Star Empire"
 ={
 	name_list="Human"
-	ship_prefix="USS"
-	species_name="Human"
-	species_plural="Humans"
-	species_class="MAM"
-	species_adjective="Human"
+	ship_prefix="IRW"
+	species_name="Romulan"
+	species_plural="Romulans"
+	species_class="BEQ"
+	species_adjective="Romulan"
 	species_bio=""
-	portrait="human"
-	name="United Earth"
-	adjective="Human"
-	government="indirect_democracy"
-	flags={
-human_empire	}
+	portrait="romulan"
+	name="Romulan Star Empire"
+	adjective="Romulan"
+	government="military_dictatorship"
+	flags={ romulan_star_empire }
 	ftl=warp
 	weapon="tech_lasers_1"
-	planet_name="Earth"
-	planet_class="pc_continental"
-	system_name="Sol"
-	initializer="human_homeworld"
-	graphical_culture="federation_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="human"
-			file="flag_human_9.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
-			"blue"
-			"black"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=male
-		name="Nathan Samuels"
-		portrait="human_male_04"
-		texture=0
-		hair=41
-		clothes=14
-	}
-	spawn_enabled=always
-	ethic="ethic_xenophile"
-	ethic="ethic_fanatic_individualist"
-	trait="trait_quick_learners"
-	trait="trait_nomadic"
-	trait="trait_slow_breeders"
-	trait="trait_natural_engineers"
-}
-
-#Breen Confederacy
-"Breen Confederacy"
-={
-	name_list="Human"
-	ship_prefix=""
-	species_name="Breen"
-	species_plural="Breen"
-	species_class="MAM"
-	species_adjective="Breen"
-	species_bio=""
-	portrait="breen"
-	name="Breen Confederacy"
-	adjective="Breen"
-	government="military_junta"
-	ftl=warp
-	weapon="tech_missiles_1"
-	planet_name="Breen"
-	planet_class="pc_continental"
-	system_name="Breen"
+	planet_name="Romulus"
+	planet_class="pc_ocean"
+	system_name="Romulus"
 	initializer=""
 	graphical_culture="mammalian_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_2.dds"
+			category="zoological"
+			file="flag_zoological_6.dds"
 		}
 		background={
 			category="backgrounds"
 			file="v.dds"
 		}
 		colors={
-			"red"
-			"black"
+			"green"
+			"dark_green"
 			"null"
 			"null"
 		}
 	}
 	ruler={
-		gender=female
-		name=""
-		portrait="breen_01"
+		gender=male
+		name="Valdore"
+		portrait="romulan_male_01"
 		texture=0
 		hair=0
 		clothes=0
+		ruler_title="Praetor"
+		ruler_title_female="Praetor"
 	}
 	spawn_enabled=yes
-	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_collectivist"
+	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
-}
-
-#Bolian League
-"Bolian League"
-={
-	name_list="MAM3"
-	ship_prefix="BLS"
-	species_name="Bolian"
-	species_plural="Bolian"
-	species_class="MAM"
-	species_adjective="Bolian"
-	species_bio="The Bolians are a humanoid species native to the planet Bolias. Bolians are known forfor a bifurcating cartilaginous ridge running vertically along the centre of the head and face. Skin colour ranges from light green-blue to blue-gray and is occasionally accented with dark blue bands on the head. Bolian individuals tend to be high highly outspoken."
-	portrait="bolian"
-	name="Bolian League"
-	adjective="Bolian"
-	government="indirect_democracy"
-	ftl=warp
-	weapon="tech_lasers_1"
-	planet_name="Bolias"
-	planet_class="pc_ocean"
-	system_name="Bolarus"
-	initializer=""
-	graphical_culture="fungoid_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="spherical"
-			file="flag_spherical_17.dds"
-		}
-		background={
-			category="backgrounds"
-			file="circle.dds"
-		}
-		colors={
-			"indigo"
-			"burgundy"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Haruna Harada"
-		portrait="bolian_female_01"
-		texture=0
-		hair=0
-		clothes=0
-	}
-	spawn_enabled=yes
-	ethic="ethic_xenophile"
-	ethic="ethic_pacifist"
-	ethic="ethic_materialist"
+	trait="trait_conformists"
+	trait="trait_decadent"
+	trait="trait_quick_learners"
 }
 
 #Ferengi
@@ -222,7 +176,7 @@ human_empire	}
 	ship_prefix=""
 	species_name="Ferengi"
 	species_plural="Ferengi"
-	species_class="MAM"
+	species_class="ALQ"
 	species_adjective="Ferengi"
 	species_bio=""
 	portrait="ferengi"
@@ -279,7 +233,7 @@ human_empire	}
 	ship_prefix=""
 	species_name="Cardassian"
 	species_plural="Cardassians"
-	species_class="MAM"
+	species_class="ALQ"
 	species_adjective="Cardassian"
 	species_bio=""
 	portrait="cardassian"
@@ -328,6 +282,109 @@ human_empire	}
 	trait="trait_conformists"
 }
 
+#Breen Confederacy
+"Breen Confederacy"
+={
+	name_list="Human"
+	ship_prefix=""
+	species_name="Breen"
+	species_plural="Breen"
+	species_class="ALQ"
+	species_adjective="Breen"
+	species_bio=""
+	portrait="breen"
+	name="Breen Confederacy"
+	adjective="Breen"
+	government="military_junta"
+	ftl=warp
+	weapon="tech_missiles_1"
+	planet_name="Breen"
+	planet_class="pc_continental"
+	system_name="Breen"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name=""
+		portrait="breen_01"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+}
+
+#Bolian League
+"Bolian League"
+={
+	name_list="MAM3"
+	ship_prefix="BLS"
+	species_name="Bolian"
+	species_plural="Bolian"
+	species_class="BEQ"
+	species_adjective="Bolian"
+	species_bio="The Bolians are a humanoid species native to the planet Bolias. Bolians are known forfor a bifurcating cartilaginous ridge running vertically along the centre of the head and face. Skin colour ranges from light green-blue to blue-gray and is occasionally accented with dark blue bands on the head. Bolian individuals tend to be high highly outspoken."
+	portrait="bolian"
+	name="Bolian League"
+	adjective="Bolian"
+	government="indirect_democracy"
+	ftl=warp
+	weapon="tech_lasers_1"
+	planet_name="Bolias"
+	planet_class="pc_ocean"
+	system_name="Bolarus"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_17.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"indigo"
+			"burgundy"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Haruna Harada"
+		portrait="bolian_female_01"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_materialist"
+}
+
 #Vulcan
 "Vulcan High Command"
 ={
@@ -335,7 +392,7 @@ human_empire	}
 	ship_prefix=""
 	species_name="Vulcan"
 	species_plural="Vulcans"
-	species_class="MAM"
+	species_class="BEQ"
 	species_adjective="Vulcan"
 	species_bio=""
 	portrait="vulcan"
@@ -390,7 +447,7 @@ human_empire	}
 	ship_prefix="IGS"
 	species_name="Andorian"
 	species_plural="Andorians"
-	species_class="MAM"
+	species_class="BEQ"
 	species_adjective="Andorian"
 	species_bio=""
 	portrait="andorian"

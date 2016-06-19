@@ -4,7 +4,7 @@
 # can specify playable=no to disable people from picking specified class.
 # can specify randomized=no to filter specified class from randomization.
 
-MAM = {
+BEQ = {
 	portraits = {
 		"vulcan"
 	}
