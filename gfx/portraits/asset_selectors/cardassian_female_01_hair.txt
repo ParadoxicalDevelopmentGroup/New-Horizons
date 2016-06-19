@@ -6,7 +6,7 @@ cardassian_female_hair_01 = {
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
 		default = "gfx/models/portraits/cardassian/cardassian_female_hair_black_style_01.dds"
 	}
-	
+
 	#species scope
 	species = { #generic portrait for a species
 		default = "gfx/models/portraits/cardassian/cardassian_female_hair_black_style_01.dds"
@@ -14,9 +14,7 @@ cardassian_female_hair_01 = {
 	
 	#pop scope
 	pop = { #for a specific pop
-	
 		default = "gfx/models/portraits/cardassian/cardassian_female_hair_black_style_01.dds"
-
 		random = {
 			list = {
 			"gfx/models/portraits/cardassian/cardassian_female_hair_black_style_01.dds"
@@ -29,7 +27,6 @@ cardassian_female_hair_01 = {
 	
 	#leader scope
 	leader = { #scientists, generals, admirals, governor
-	
 		random = {
 			trigger = { leader_class = general }
 			list = {
@@ -48,7 +45,6 @@ cardassian_female_hair_01 = {
 			trigger = { leader_class = scientist }
 			list = {
 				"gfx/models/portraits/cardassian/cardassian_female_hair_black_style_01.dds"
-				"gfx/models/portraits/cardassian/cardassian_female_hair_black_style_02.dds"
 			}
 		}		
 		
@@ -62,7 +58,6 @@ cardassian_female_hair_01 = {
   
 	#leader scope 
 	ruler = { #for rulers
-		
 		random = {
 			trigger = { 
 				OR = {
@@ -75,10 +70,8 @@ cardassian_female_hair_01 = {
 					owner = { has_government = pirate_codex } 
 				}
 			}
-				
 			list = {
 				"gfx/models/portraits/cardassian/cardassian_female_hair_black_style_01.dds"
-				"gfx/models/portraits/cardassian/cardassian_female_hair_black_style_02.dds"
 			}
 		}		
 		
@@ -91,7 +84,6 @@ cardassian_female_hair_01 = {
 					owner = { has_government = theocratic_republic } 
 				}
 			}	
-			
 			list = {
 				"gfx/models/portraits/cardassian/cardassian_female_hair_black_style_01.dds"			
 			}
@@ -108,9 +100,7 @@ cardassian_female_hair_01 = {
 					owner = { has_government = moral_democracy } 
 					owner = { has_government = irenic_democracy } 
 					owner = { has_government = democratic_utopia }
-					
 					owner = { has_government = stagnated_ascendancy } 
-					
 					owner = { has_government = despotic_hegemony } 
 					owner = { has_government = enlightened_monarchy } 
 					owner = { has_government = transcendent_oligarchy } 
@@ -118,20 +108,15 @@ cardassian_female_hair_01 = {
 					owner = { has_government = peaceful_bureaucracy } 
 					owner = { has_government = irenic_protectorate } 
 					owner = { has_government = mega_corporation } 
-					
 					owner = { has_government = fragmented_nations } 
 					owner = { has_government = primitive_feudalism } 	
-					
 					owner = { has_government = ai_overlordship } 
 					owner = { has_government = science_directorate } 					
 					owner = { has_government = illuminated_technocracy } 
 					owner = { has_government = subconscious_consensus } 
-					
 				}
 			}
-			
 			list = {
-			
 				"gfx/models/portraits/cardassian/cardassian_female_hair_black_style_01.dds"
 			}
 		}
